@@ -8,6 +8,8 @@ enabled: true
 lists:
   - name: vanshb03-new-grad-2027
     url: https://raw.githubusercontent.com/vanshb03/New-Grad-2027/dev/.github/scripts/listings.json
+  - name: simplifyjobs-new-grad-positions
+    url: https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/.github/scripts/listings.json
 
 # README markdown-table lists (Company | Role | Location | Posted | Visa | Apply).
 readme_tables: []
