@@ -2,9 +2,10 @@ name: Daily full-time digest
 
 on:
   schedule:
-    # Run at 12 AM, 3 PM, and 7 PM UTC
-    # GitHub cron can be delayed under load; that's fine for a daily digest.
-    - cron: "0 0,15,19 * * *"
+    # Run at 11:17 AM, 3:17 PM, and 8:17 PM America/New_York.
+    # Avoid the top of the hour to reduce GitHub Actions schedule delays.
+    - cron: "17 11,15,20 * * *"
+      timezone: "America/New_York"
   workflow_dispatch:
     # Manual trigger from the Actions tab — use it to test or to keep the
     # schedule alive (GitHub disables crons after 60 days of repo inactivity).
