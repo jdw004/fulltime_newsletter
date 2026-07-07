@@ -64,6 +64,7 @@ def secrets() -> dict[str, str]:
         "GMAIL_USER",
         "GMAIL_APP_PASSWORD",
         "EMAIL_TO",
+        "DISCORD_WEBHOOK_URL",
         "TWILIO_ACCOUNT_SID",
         "TWILIO_AUTH_TOKEN",
         "TWILIO_FROM",

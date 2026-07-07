@@ -3,8 +3,9 @@
 Usage:
     python -m src.main                 # full run (fetch, notify, persist state)
     python -m src.main --dry-run       # fetch + filter, print what WOULD send; no send, no save
-    python -m src.main --test-notify   # send one sample email + SMS to verify credentials
+    python -m src.main --test-notify   # send one sample email + SMS + Discord message to verify credentials
     python -m src.main --no-sms        # run but skip SMS
+    python -m src.main --no-discord    # run but skip Discord
     python -m src.main --limit 5       # cap sources (debugging)
 """
 
@@ -20,6 +21,7 @@ from .dedup import load_state, new_jobs, prune, save_state, update_state
 from .filters import apply_filters
 from .models import Job
 from .notify import email as email_notify
+from .notify import discord as discord_notify
 from .notify import sms as sms_notify
 from .sources.base import make_session
 from .sources.registry import build_all_sources
@@ -77,15 +79,26 @@ def run_test_notify() -> int:
     )
     sent_email = email_notify.send_email([sample], secrets, settings.get("email", {}))
     sms_cfg = settings.get("sms", {})
+    discord_cfg = settings.get("discord", {})
     sent_sms = False
+    sent_discord = False
     if sms_cfg.get("enabled", False):
         body = sms_notify.build_body(1, sms_cfg.get("template", "{n} new full-time jobs"))
         sent_sms = sms_notify.send_sms(f"[TEST] {body}", secrets)
-    log.info("test-notify: email=%s sms=%s", sent_email, sent_sms)
-    return 0 if (sent_email or sent_sms) else 1
+    if discord_cfg.get("enabled", True) and secrets.get("DISCORD_WEBHOOK_URL"):
+        sent_discord = discord_notify.send_discord([sample], secrets, discord_cfg)
+    log.info("test-notify: email=%s sms=%s discord=%s", sent_email, sent_sms, sent_discord)
+    return 0 if (sent_email or sent_sms or sent_discord) else 1
 
 
-def run(dry_run: bool, do_email: bool, do_sms: bool, limit: int | None, seed: bool = False) -> int:
+def run(
+    dry_run: bool,
+    do_email: bool,
+    do_sms: bool,
+    do_discord: bool,
+    limit: int | None,
+    seed: bool = False,
+) -> int:
     settings = config.settings()
     secrets = config.secrets()
     today = datetime.now().date()
@@ -126,11 +139,14 @@ def run(dry_run: bool, do_email: bool, do_sms: bool, limit: int | None, seed: bo
     if fresh:
         email_cfg = settings.get("email", {})
         sms_cfg = settings.get("sms", {})
+        discord_cfg = settings.get("discord", {})
         if do_email and email_cfg.get("enabled", True):
             email_notify.send_email(fresh, secrets, email_cfg)
         if do_sms and sms_cfg.get("enabled", True) and len(fresh) >= sms_cfg.get("min_jobs", 1):
             body = sms_notify.build_body(len(fresh), sms_cfg.get("template", "{n} new full-time jobs"))
             sms_notify.send_sms(body, secrets)
+        if do_discord and discord_cfg.get("enabled", True) and secrets.get("DISCORD_WEBHOOK_URL"):
+            discord_notify.send_discord(fresh, secrets, discord_cfg)
 
     # Persist: record the new jobs as seen, prune old entries.
     state = update_state(state, fresh, today)
@@ -148,6 +164,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--test-notify", action="store_true", help="send a sample email+SMS to verify creds")
     parser.add_argument("--no-email", action="store_true", help="skip email this run")
     parser.add_argument("--no-sms", action="store_true", help="skip SMS this run")
+    parser.add_argument("--no-discord", action="store_true", help="skip Discord this run")
     parser.add_argument("--limit", type=int, default=None, help="cap number of sources (debug)")
     args = parser.parse_args(argv)
 
@@ -157,6 +174,7 @@ def main(argv: list[str] | None = None) -> int:
         dry_run=args.dry_run,
         do_email=not args.no_email,
         do_sms=not args.no_sms,
+        do_discord=not args.no_discord,
         limit=args.limit,
         seed=args.seed,
     )

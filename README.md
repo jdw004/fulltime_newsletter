@@ -2,7 +2,7 @@
 
 Forked from https://github.com/vatsalm30/internship_emailer
 
-A bot that **runs daily on GitHub Actions** and **emails you** **new US
+A bot that **runs daily on GitHub Actions** and **notifies you** about **new US
 software / quant / consulting full-time openings**.
 It pulls from direct company career
 sites (via their ATS APIs), filters to what you care about, remembers what it has
@@ -12,12 +12,12 @@ already shown you, and only alerts on **new** postings.
 sources (Greenhouse/Lever/Ashby/Workday + optional community lists)
    → normalize → filter (full-time · category · US)
    → dedup vs data/seen_jobs.json
-   → email digest (Gmail)
+   → email digest (Gmail) / Discord webhook
    → commit updated state back to the repo
 ```
 
-> SMS (Twilio) is supported but **off by default** — this is an email-only setup.
-> To turn it on later, see "Optional: SMS" below.
+> SMS (Twilio) is supported but **off by default**. Discord webhook delivery is
+> also supported and off until you add the webhook secret.
 
 ## What it tracks
 - **Roles:** full-time roles only; internships are excluded.
@@ -33,7 +33,7 @@ config/        # all tunables (no code): companies, github lists, filters, setti
 src/sources/   # one module per source type (github lists + 4 ATS APIs)
 src/filters.py # full-time / category / US-location rules
 src/dedup.py   # seen-jobs state (data/seen_jobs.json)
-src/notify/    # email.py (Gmail SMTP) + sms.py (Twilio)
+src/notify/    # email.py (Gmail SMTP) + sms.py (Twilio) + discord.py (webhook)
 src/apply/     # FUTURE auto-apply scaffold (not yet implemented)
 src/main.py    # orchestrator + CLI
 .github/workflows/daily.yml  # the daily cron
@@ -52,7 +52,7 @@ python -m src.main --dry-run
 Add credentials to send for real:
 ```bash
 cp .env.example .env      # then fill in GMAIL_USER / GMAIL_APP_PASSWORD / EMAIL_TO
-python -m src.main --test-notify   # sends one sample email to verify creds
+python -m src.main --test-notify   # sends one sample email/SMS/Discord message to verify creds
 python -m src.main                 # full run
 ```
 
@@ -78,8 +78,9 @@ and/or in a local `.env` (see `.env.example`). With none set, the bot still runs
 | `GMAIL_USER` | Gmail address to send from |
 | `GMAIL_APP_PASSWORD` | 16-char [App Password](https://myaccount.google.com/apppasswords) (needs 2FA on) — **not** your login password |
 | `EMAIL_TO` | where the digest goes (comma-separate for multiple) |
+| `DISCORD_WEBHOOK_URL` | Discord channel webhook for the webhook digest |
 
-That's the whole setup — email is free and needs no other accounts.
+That's the whole setup — email and Discord webhook delivery need no other accounts beyond the target services.
 
 ## Deploy (private repo + daily cron)
 1. Create a **private** GitHub repo and push this project.
@@ -106,11 +107,15 @@ Notes:
 - **`config/github_lists.yaml`** — optional community source URLs. Disabled by default
   in this copy because the inherited defaults are internship-only.
 - **`config/filters.yaml`** — full-time title excludes, category keywords, and US location terms.
-- **`config/settings.yaml`** — digest format, state pruning, suppression.
+- **`config/settings.yaml`** — digest format, state pruning, suppression, Discord, SMS.
 
 ## Optional: SMS
-This is an email-only setup, but an SMS-nudge channel (`src/notify/sms.py`, via
-Twilio) ships dormant. To enable it later:
+Discord webhook delivery ships dormant in `src/notify/discord.py` and uses a
+channel webhook, not a bot. To enable it, add `DISCORD_WEBHOOK_URL` as a secret
+and leave `discord.enabled: true` in `config/settings.yaml`.
+
+An SMS-nudge channel (`src/notify/sms.py`, via Twilio) also ships dormant. To
+enable it later:
 1. In `config/settings.yaml`, set `sms.enabled: true`.
 2. Uncomment `twilio>=8` in `requirements.txt` and reinstall.
 3. Add `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN`, `TWILIO_FROM`, `SMS_TO` (E.164)

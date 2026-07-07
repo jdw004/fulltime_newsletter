@@ -30,6 +30,13 @@ email:
   # the top. Edit freely (e.g. add nvidia, microsoft).
   faang_companies: [meta, facebook, amazon, apple, netflix, google, alphabet]
 
+# Discord webhook digest.
+discord:
+  enabled: true
+  username: "Full-Time Job Alert"
+  max_jobs: 15
+  timeout_seconds: 10
+
 # SMS nudge (OFF — email-only setup). To enable later: set enabled: true,
 # uncomment twilio in requirements.txt, and add the TWILIO_* secrets.
 sms:
