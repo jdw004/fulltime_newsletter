@@ -33,7 +33,7 @@ email:
 # Discord webhook digest.
 discord:
   enabled: true
-  username: "Full-Time Job Alert"
+  username: "Fulltime Bot"
   max_jobs: 15
   timeout_seconds: 10
 
