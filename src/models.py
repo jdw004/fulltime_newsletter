@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import re
 from datetime import date
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from typing import Optional
 
 from pydantic import BaseModel, Field
@@ -16,6 +17,45 @@ Category = str  # one of: "swe", "quant", "consulting", "other"
 def normalize_title(title: str) -> str:
     """Lowercase + collapse whitespace, for stable IDs and matching."""
     return re.sub(r"\s+", " ", (title or "").strip().lower())
+
+
+def normalize_company(company: str) -> str:
+    """Lowercase + collapse whitespace for stable IDs."""
+    return re.sub(r"\s+", " ", (company or "").strip().lower())
+
+
+_TRACKING_PARAM_EXACT = {
+    "fbclid",
+    "gclid",
+    "mkt_tok",
+    "mc_cid",
+    "mc_eid",
+}
+_TRACKING_PARAM_PREFIXES = ("utm_",)
+
+
+def normalize_url(url: str) -> str:
+    """Drop fragments and common tracking params from a URL."""
+    raw = (url or "").strip()
+    if not raw:
+        return ""
+
+    parsed = urlsplit(raw)
+    query = [
+        (key, value)
+        for key, value in parse_qsl(parsed.query, keep_blank_values=True)
+        if key.lower() not in _TRACKING_PARAM_EXACT
+        and not key.lower().startswith(_TRACKING_PARAM_PREFIXES)
+    ]
+    return urlunsplit(
+        (
+            parsed.scheme.lower(),
+            parsed.netloc.lower(),
+            parsed.path,
+            urlencode(query, doseq=True),
+            "",
+        )
+    )
 
 
 class Job(BaseModel):
@@ -44,8 +84,20 @@ class Job(BaseModel):
 
     @property
     def job_id(self) -> str:
-        """Stable id used for dedup. Based on company + normalized title + url."""
+        """Legacy id used by the apply log and old seen-job state."""
         basis = f"{self.company.strip().lower()}|{normalize_title(self.title)}|{self.url.strip()}"
+        return hashlib.sha1(basis.encode("utf-8")).hexdigest()[:16]
+
+    @property
+    def dedup_id(self) -> str:
+        """Newsletter dedup id based on normalized company/title/url."""
+        basis = "|".join(
+            [
+                normalize_company(self.company),
+                normalize_title(self.title),
+                normalize_url(self.url),
+            ]
+        )
         return hashlib.sha1(basis.encode("utf-8")).hexdigest()[:16]
 
 
