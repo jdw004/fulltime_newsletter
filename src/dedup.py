@@ -1,7 +1,9 @@
 """Persisted state: which jobs have already been notified.
 
 State file shape (data/seen_jobs.json):
-    { "<job_id>": {"first_seen": "2026-06-22", "company": ..., "title": ..., "url": ...}, ... }
+    { "<dedup_id>": {...}, "<legacy_job_id>": {...}, ... }
+Canonical newsletter entries use `dedup_id`; legacy `job_id` entries are
+still honored when reading, and new writes mirror both for compatibility.
 """
 
 from __future__ import annotations
@@ -40,10 +42,16 @@ def new_jobs(jobs: list[Job], state: dict[str, dict]) -> list[Job]:
     seen_now: set[str] = set()
     out: list[Job] = []
     for job in jobs:
-        jid = job.job_id
-        if jid in state or jid in seen_now:
+        legacy_id = job.job_id
+        dedup_id = job.dedup_id
+        if (
+            legacy_id in state
+            or dedup_id in state
+            or legacy_id in seen_now
+            or dedup_id in seen_now
+        ):
             continue
-        seen_now.add(jid)
+        seen_now.update({legacy_id, dedup_id})
         out.append(job)
     return out
 
@@ -54,12 +62,14 @@ def update_state(
     today = today or datetime.now().date()
     iso = today.isoformat()
     for job in jobs:
-        state[job.job_id] = {
+        meta = {
             "first_seen": iso,
             "company": job.company,
             "title": job.title,
             "url": job.url,
         }
+        state[job.dedup_id] = meta
+        state[job.job_id] = meta
     return state
 
 

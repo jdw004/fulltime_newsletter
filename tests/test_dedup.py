@@ -21,20 +21,43 @@ def test_new_jobs_excludes_seen():
     assert out == [j2]
 
 
-def test_new_jobs_dedups_within_batch():
-    j1 = _job("Acme", "SWE Intern", "https://a.com/1")
-    dup = _job("Acme", "SWE Intern", "https://a.com/1")  # same id
+def test_new_jobs_excludes_seen_dedup_id():
+    j1 = _job("Acme", "SWE Intern", "https://a.com/1?utm_source=newsletter")
+    j2 = _job("Acme", "SWE Intern", "https://a.com/1?fbclid=abc123")
+    state = {j1.dedup_id: {"first_seen": "2026-06-01"}}
+    out = dedup.new_jobs([j2], state)
+    assert out == []
+
+
+def test_new_jobs_dedups_tracking_variants_within_batch():
+    j1 = _job("Acme", "SWE Intern", "https://a.com/1?utm_source=newsletter")
+    dup = _job("Acme", "SWE Intern", "https://a.com/1?fbclid=abc123#frag")
     out = dedup.new_jobs([j1, dup], {})
     assert len(out) == 1
 
 
+def test_dedup_id_normalization():
+    j1 = _job("Acme  Corp", "SWE Intern", "https://a.com/1?utm_source=newsletter")
+    j2 = _job("acme corp", "swe  intern", "https://a.com/1?fbclid=abc123#frag")
+    assert j1.dedup_id == j2.dedup_id
+
+
 def test_update_state_adds_entries():
-    j = _job("Acme", "SWE Intern", "https://a.com/1")
+    j = _job("Acme", "SWE Intern", "https://a.com/1?utm_source=newsletter")
     state: dict = {}
     dedup.update_state(state, [j], today=date(2026, 6, 22))
+    assert j.dedup_id in state
     assert j.job_id in state
-    assert state[j.job_id]["first_seen"] == "2026-06-22"
-    assert state[j.job_id]["company"] == "Acme"
+    assert state[j.dedup_id]["first_seen"] == "2026-06-22"
+    assert state[j.dedup_id]["company"] == "Acme"
+    assert state[j.job_id]["title"] == "SWE Intern"
+
+
+def test_legacy_state_keys_still_respected():
+    j = _job("Acme", "SWE Intern", "https://a.com/1")
+    state = {j.job_id: {"first_seen": "2026-06-01"}}
+    out = dedup.new_jobs([j], state)
+    assert out == []
 
 
 def test_prune_removes_old_entries():

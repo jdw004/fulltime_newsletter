@@ -40,6 +40,11 @@ role:
     - "co op"
     - "coop"
 
+  # Regex-based exclusions for short abbreviations that should only match as
+  # standalone title tokens.
+  global_exclude_patterns:
+    - "\\bsr(?:\\.|\\b)"
+
   # Unused for full-time roles. Leave empty to accept any season string when present.
   seasons: []
 

@@ -63,6 +63,11 @@ rather start clean and only get *new* postings from then on, seed the state once
 python -m src.main --seed   # marks everything currently open as "seen", sends nothing
 ```
 
+The newsletter dedup state now uses `Job.dedup_id` built from company, normalized
+title, and normalized URL. Old `job_id` keys are still respected when reading
+existing state, and new writes mirror both keys for compatibility, so you do not
+need to reset `data/seen_jobs.json`.
+
 Run the tests:
 ```bash
 pytest

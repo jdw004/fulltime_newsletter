@@ -26,7 +26,22 @@ def test_max_jobs_truncates_output():
     jobs = [_job(f"Co{i}", f"Role{i}", f"https://example.com/{i}") for i in range(6)]
     body = D.build_body(jobs, max_jobs=3)
     assert body.count("• ") == 3
-    assert "... and 3 more" in body
+
+
+def test_digest_splits_into_multiple_messages():
+    jobs = [
+        _job(
+            "Acme",
+            "Very Long Role Title That Keeps Going " * 3,
+            f"https://example.com/{i}",
+            "New York, NY",
+        )
+        for i in range(12)
+    ]
+    bodies = D.build_bodies(jobs, max_jobs=200, max_chars=250)
+    assert len(bodies) > 1
+    assert all(len(body) <= 250 for body in bodies)
+    assert sum(body.count("• ") for body in bodies) == len(jobs)
 
 
 def test_message_stays_under_discord_limit():
@@ -39,8 +54,38 @@ def test_message_stays_under_discord_limit():
         )
         for i in range(200)
     ]
-    body = D.build_body(jobs, max_jobs=200)
-    assert len(body) <= D.DISCORD_CONTENT_LIMIT
+    bodies = D.build_bodies(jobs, max_jobs=200)
+    assert all(len(body) <= D.DISCORD_CONTENT_LIMIT for body in bodies)
+
+
+def test_send_discord_posts_multiple_messages(monkeypatch):
+    jobs = [
+        _job(
+            "Acme",
+            "Very Long Role Title That Keeps Going " * 3,
+            f"https://example.com/{i}",
+            "New York, NY",
+        )
+        for i in range(12)
+    ]
+    calls = []
+
+    class Resp:
+        status_code = 204
+        text = ""
+
+    def fake_post(url, json=None, timeout=None):
+        calls.append({"url": url, "json": json, "timeout": timeout})
+        return Resp()
+
+    monkeypatch.setattr(D.requests, "post", fake_post)
+    monkeypatch.setattr(D, "DISCORD_CONTENT_LIMIT", 250)
+
+    assert D.send_discord(jobs, {"DISCORD_WEBHOOK_URL": "https://discord.example/webhook"}, {})
+    assert len(calls) > 1
+    assert all(len(call["json"]["content"]) <= 250 for call in calls)
+    assert all(call["json"]["allowed_mentions"] == {"parse": []} for call in calls)
+    assert sum(call["json"]["content"].count("• ") for call in calls) == len(jobs)
 
 
 def test_missing_webhook_skips_cleanly(monkeypatch):

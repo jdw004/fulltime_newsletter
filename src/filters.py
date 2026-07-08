@@ -126,6 +126,13 @@ def passes(job: Job, f: dict) -> bool:
     if global_excludes and _contains_any(title_lc, global_excludes):
         return False
 
+    global_exclude_patterns = [
+        re.compile(pattern, re.IGNORECASE)
+        for pattern in role_cfg.get("global_exclude_patterns", [])
+    ]
+    if any(pattern.search(title_lc) for pattern in global_exclude_patterns):
+        return False
+
     if role_cfg.get("exclude_internship_titles", False):
         intern_terms = [t.lower() for t in role_cfg.get("internship_terms", [])]
         if intern_terms and _contains_any(title_lc, intern_terms):
