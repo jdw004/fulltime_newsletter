@@ -3,8 +3,6 @@
 from __future__ import annotations
 
 import logging
-import re
-
 import requests
 
 from ..models import Job
@@ -18,20 +16,12 @@ def _job_sort_key(job: Job) -> tuple[str, str, str]:
     return (job.company.lower(), job.title.lower(), job.url)
 
 
-def _wrap_url(url: str) -> str:
-    url = (url or "").strip()
-    if not url:
-        return ""
-    return f"<{url}>"
-
-
-def _compact_location(job: Job) -> str:
-    loc = re.sub(r"\s+", " ", (job.location_str or "").strip())
-    return loc or "Remote/US"
-
-
 def _job_line(job: Job) -> str:
-    return f"• {job.title} — {job.company} [{_compact_location(job)}] {_wrap_url(job.url)}"
+    parts = [f"• {job.company} - {job.title}"]
+    url = (job.url or "").strip()
+    if url:
+        parts.append(f"[link]({url})")
+    return " ".join(parts)
 
 
 def _render_body(jobs: list[Job], max_chars: int = DISCORD_CONTENT_LIMIT) -> str:
