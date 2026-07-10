@@ -10,16 +10,16 @@ def _job(company, title, url, location=None):
     return Job(company=company, title=title, url=url, locations=[location] if location else [])
 
 
-def test_digest_includes_job_company_location():
+def test_digest_includes_job_company_title():
     body = D.build_body([_job("Acme", "Software Engineer", "https://example.com/job", "New York, NY")])
+    assert "Acme - Software Engineer" in body
     assert "Software Engineer" in body
-    assert "Acme" in body
-    assert "New York, NY" in body
+    assert "New York, NY" not in body
 
 
-def test_urls_are_wrapped_in_angle_brackets():
+def test_urls_are_rendered_as_markdown_link():
     body = D.build_body([_job("Acme", "Software Engineer", "https://example.com/job")])
-    assert "<https://example.com/job>" in body
+    assert "[link](https://example.com/job)" in body
 
 
 def test_max_jobs_truncates_output():

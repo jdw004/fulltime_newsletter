@@ -22,6 +22,8 @@ role:
 
   # Reject experienced/senior roles outright.
   global_exclude_terms:
+    - analyst
+    - associate
     - senior
     - staff
     - principal
@@ -87,11 +89,7 @@ categories:
   consulting:
     - consulting
     - consultant
-    - "technology analyst"
     - "tech consulting"
-    - "business analyst"
-    - analyst
-    - associate
 
 # If true, a job must match at least one category group to be kept.
 require_category: true

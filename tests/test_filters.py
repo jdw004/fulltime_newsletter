@@ -31,8 +31,18 @@ def test_quant_fulltime_classified_as_quant():
     assert j.category == "quant"
 
 
-def test_consulting_fulltime_kept():
+def test_technology_analyst_rejected():
     j = _job("Technology Analyst", ["Boston, MA"])
+    assert not passes(j, F)
+
+
+def test_associate_rejected():
+    j = _job("Registered Client Service Associate", ["Boston, MA"])
+    assert not passes(j, F)
+
+
+def test_consulting_fulltime_kept():
+    j = _job("Implementation Consultant", ["Boston, MA"])
     assert passes(j, F)
     assert j.category == "consulting"
 
