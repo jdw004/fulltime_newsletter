@@ -12,9 +12,8 @@ def _job(company, title, url, location=None):
 
 def test_digest_includes_job_company_title():
     body = D.build_body([_job("Acme", "Software Engineer", "https://example.com/job", "New York, NY")])
-    assert "Acme - Software Engineer" in body
+    assert "Acme - Software Engineer [New York, NY]" in body
     assert "Software Engineer" in body
-    assert "New York, NY" not in body
 
 
 def test_urls_are_rendered_as_markdown_link():
