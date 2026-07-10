@@ -19,7 +19,7 @@ def test_digest_includes_job_company_title():
 
 def test_urls_are_rendered_as_markdown_link():
     body = D.build_body([_job("Acme", "Software Engineer", "https://example.com/job")])
-    assert "[link](https://example.com/job)" in body
+    assert "[Link](https://example.com/job)" in body
 
 
 def test_max_jobs_truncates_output():

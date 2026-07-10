@@ -20,7 +20,7 @@ def _job_line(job: Job) -> str:
     parts = [f"• {job.company} - {job.title}"]
     url = (job.url or "").strip()
     if url:
-        parts.append(f"[link]({url})")
+        parts.append(f"[Link]({url})")
     return " ".join(parts)
 
 
