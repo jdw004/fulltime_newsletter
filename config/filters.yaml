@@ -86,10 +86,6 @@ categories:
     - "infrastructure engineer"
     - "platform engineer"
     - "systems engineer"
-  consulting:
-    - consulting
-    - consultant
-    - "tech consulting"
 
 # If true, a job must match at least one category group to be kept.
 require_category: true

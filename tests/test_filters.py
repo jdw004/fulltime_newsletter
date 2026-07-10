@@ -41,12 +41,6 @@ def test_associate_rejected():
     assert not passes(j, F)
 
 
-def test_consulting_fulltime_kept():
-    j = _job("Implementation Consultant", ["Boston, MA"])
-    assert passes(j, F)
-    assert j.category == "consulting"
-
-
 def test_senior_role_rejected():
     j = _job("Senior Software Engineer", ["San Francisco, CA"])
     assert not passes(j, F)
