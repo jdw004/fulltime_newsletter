@@ -11,6 +11,7 @@ from ..models import Job
 log = logging.getLogger(__name__)
 
 DISCORD_CONTENT_LIMIT = 2000
+DISCORD_SUPPRESS_EMBEDS = 4
 
 
 def _job_sort_key(job: Job) -> tuple[str, str, str]:
@@ -99,6 +100,7 @@ def send_discord(jobs: list[Job], secrets: dict[str, str], discord_cfg: dict) ->
             payload = {
                 "content": body,
                 "allowed_mentions": {"parse": []},
+                "flags": DISCORD_SUPPRESS_EMBEDS,
             }
             if username:
                 payload["username"] = username

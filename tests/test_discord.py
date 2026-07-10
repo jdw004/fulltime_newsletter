@@ -84,6 +84,7 @@ def test_send_discord_posts_multiple_messages(monkeypatch):
     assert len(calls) > 1
     assert all(len(call["json"]["content"]) <= 250 for call in calls)
     assert all(call["json"]["allowed_mentions"] == {"parse": []} for call in calls)
+    assert all(call["json"]["flags"] == D.DISCORD_SUPPRESS_EMBEDS for call in calls)
     assert sum(call["json"]["content"].count("• ") for call in calls) == len(jobs)
 
 
