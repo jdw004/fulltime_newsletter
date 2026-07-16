@@ -93,8 +93,8 @@ That's the whole setup — email and Discord webhook delivery need no other acco
 3. (Optional) Run `python -m src.main --seed` locally once and commit the updated
    `data/seen_jobs.json`, so your first scheduled email is a small delta rather than
    the whole backlog.
-4. The workflow `.github/workflows/daily.yml` runs at **11:17 AM, 3:17 PM, and
-   8:17 PM America/New_York daily** and also on-demand from the **Actions tab**
+4. The workflow `.github/workflows/daily.yml` runs at **10 AM, 12 PM, 2 PM,
+   4 PM, and 7 PM America/New_York daily** and also on-demand from the **Actions tab**
    (`workflow_dispatch`, with a dry-run toggle).
 5. Each run commits the updated `data/seen_jobs.json` back to the repo, so the bot
    remembers what it already sent.
