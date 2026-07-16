@@ -2,8 +2,8 @@ name: Daily full-time digest
 
 on:
   schedule:
-    # Run at 10 AM, 12 PM, 2 PM, 4 PM, and 7 PM America/New_York.
-    - cron: "0 10,12,14,16,19 * * *"
+    # Run at 10:05 AM, 12:05 PM, 2:05 PM, 4:05 PM, and 7:05 PM America/New_York.
+    - cron: "5 10,12,14,16,19 * * *"
       timezone: "America/New_York"
   workflow_dispatch:
     # Manual trigger from the Actions tab — use it to test or to keep the
