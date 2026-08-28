@@ -15,6 +15,7 @@ from . import config
 from .models import Job
 
 _YEAR_RE = re.compile(r"\b(20\d{2})\b")
+_NEW_GRAD_TITLE_RE = re.compile(r"\bnew\s+(?:grad|graduate)\b", re.IGNORECASE)
 
 # Map detection keywords -> canonical season label.
 _SEASON_KEYWORDS = [
@@ -37,6 +38,16 @@ def _lc(s: str) -> str:
 
 def _contains_any(text: str, terms: Iterable[str]) -> bool:
     return any(term in text for term in terms)
+
+
+def is_new_grad_title(title: str) -> bool:
+    """Return whether a title explicitly identifies a new-grad role."""
+    return bool(_NEW_GRAD_TITLE_RE.search(title or ""))
+
+
+def match_priority(job: Job) -> int:
+    """Return the notification priority for a filtered job."""
+    return 1 if is_new_grad_title(job.title) else 0
 
 
 @lru_cache(maxsize=8)

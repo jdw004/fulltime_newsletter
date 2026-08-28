@@ -21,6 +21,17 @@ def test_urls_are_rendered_as_markdown_link():
     assert "[Link](https://example.com/job)" in body
 
 
+def test_new_grad_jobs_are_top_matches_and_posted_first():
+    jobs = [
+        _job("Acme", "Software Engineer", "https://example.com/regular"),
+        _job("Beta", "Software Engineer, New Graduate", "https://example.com/top"),
+    ]
+    bodies = D.build_bodies(jobs)
+    assert "Top Matches" in bodies[0]
+    assert "Beta - Software Engineer, New Graduate" in bodies[0]
+    assert "Other Matches" in bodies[-1]
+
+
 def test_max_jobs_truncates_output():
     jobs = [_job(f"Co{i}", f"Role{i}", f"https://example.com/{i}") for i in range(6)]
     body = D.build_body(jobs, max_jobs=3)

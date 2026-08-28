@@ -6,6 +6,7 @@ import logging
 import re
 import requests
 
+from ..filters import match_priority
 from ..models import Job
 
 log = logging.getLogger(__name__)
@@ -16,6 +17,11 @@ DISCORD_SUPPRESS_EMBEDS = 4
 
 def _job_sort_key(job: Job) -> tuple[str, str, str]:
     return (job.company.lower(), job.title.lower(), job.url)
+
+
+def _ranked_jobs(jobs: list[Job]) -> list[Job]:
+    """Put explicit new-grad postings first, preserving readable sort order."""
+    return sorted(jobs, key=lambda job: (-match_priority(job), *_job_sort_key(job)))
 
 
 def _compact_location(job: Job) -> str:
@@ -31,11 +37,24 @@ def _job_line(job: Job) -> str:
     return " ".join(parts)
 
 
-def _render_body(jobs: list[Job], max_chars: int = DISCORD_CONTENT_LIMIT) -> str:
+def _render_body_unbounded(jobs: list[Job], heading: str | None = None) -> str:
+    jobs_sorted = sorted(jobs, key=_job_sort_key)
+    lines = []
+    if heading:
+        lines.append(heading)
+    lines.append(f"{len(jobs)} new full-time job(s)")
+    lines.extend(_job_line(job) for job in jobs_sorted)
+    return "\n".join(lines)
+
+
+def _render_body(
+    jobs: list[Job], max_chars: int = DISCORD_CONTENT_LIMIT, heading: str | None = None
+) -> str:
     """Render one Discord message body from a chunk of jobs."""
     jobs_sorted = sorted(jobs, key=_job_sort_key)
     total = len(jobs)
-    lines = [f"{total} new full-time job(s)"]
+    lines = [heading] if heading else []
+    lines.append(f"{total} new full-time job(s)")
 
     if not jobs_sorted:
         return lines[0]
@@ -43,9 +62,9 @@ def _render_body(jobs: list[Job], max_chars: int = DISCORD_CONTENT_LIMIT) -> str
     for job in jobs_sorted:
         candidate = lines + [_job_line(job)]
         if len("\n".join(candidate)) > max_chars:
-            if len(lines) == 1:
+            if len(lines) == (2 if heading else 1):
                 line = _job_line(job)
-                room = max_chars - len(lines[0]) - 1
+                room = max_chars - len("\n".join(lines)) - 1
                 if room > 0:
                     if len(line) > room:
                         line = line[: max(0, room - 3)].rstrip() + ("..." if room >= 3 else "")
@@ -57,26 +76,31 @@ def _render_body(jobs: list[Job], max_chars: int = DISCORD_CONTENT_LIMIT) -> str
 
 
 def build_bodies(jobs: list[Job], max_jobs: int = 15, max_chars: int = DISCORD_CONTENT_LIMIT) -> list[str]:
-    jobs_sorted = sorted(jobs, key=_job_sort_key)
+    jobs_sorted = _ranked_jobs(jobs)
     if not jobs_sorted:
         return ["0 new full-time job(s)"]
 
     bodies: list[str] = []
-    current: list[Job] = []
 
-    for job in jobs_sorted:
-        current.append(job)
+    top_matches = [job for job in jobs_sorted if match_priority(job)]
+    other_matches = [job for job in jobs_sorted if not match_priority(job)]
+    sections = [("Top Matches", top_matches), ("Other Matches", other_matches)]
 
-        over_job_cap = max_jobs > 0 and len(current) > max_jobs
-        over_char_cap = len(_render_body(current, max_chars)) > max_chars
-        if over_job_cap or over_char_cap:
-            current.pop()
-            if current:
-                bodies.append(_render_body(current, max_chars))
-            current = [job]
-
-    if current:
-        bodies.append(_render_body(current, max_chars))
+    for heading, section_jobs in sections:
+        if not section_jobs:
+            continue
+        current: list[Job] = []
+        for job in section_jobs:
+            candidate = current + [job]
+            over_job_cap = max_jobs > 0 and len(candidate) > max_jobs
+            over_char_cap = len(_render_body_unbounded(candidate, heading)) > max_chars
+            if current and (over_job_cap or over_char_cap):
+                bodies.append(_render_body(current, max_chars, heading))
+                current = [job]
+            else:
+                current = candidate
+        if current:
+            bodies.append(_render_body(current, max_chars, heading))
 
     return bodies
 
