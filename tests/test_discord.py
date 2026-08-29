@@ -32,6 +32,12 @@ def test_new_grad_jobs_are_top_matches_and_posted_first():
     assert "Other Matches" in bodies[-1]
 
 
+def test_section_heading_is_not_repeated_on_continuation_messages():
+    jobs = [_job("Acme", f"Software Engineer {i}", f"https://example.com/{i}") for i in range(20)]
+    bodies = D.build_bodies(jobs, max_jobs=2)
+    assert sum(body.count("Other Matches") for body in bodies) == 1
+
+
 def test_max_jobs_truncates_output():
     jobs = [_job(f"Co{i}", f"Role{i}", f"https://example.com/{i}") for i in range(6)]
     body = D.build_body(jobs, max_jobs=3)

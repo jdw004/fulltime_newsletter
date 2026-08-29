@@ -90,17 +90,21 @@ def build_bodies(jobs: list[Job], max_jobs: int = 15, max_chars: int = DISCORD_C
         if not section_jobs:
             continue
         current: list[Job] = []
+        section_started = False
         for job in section_jobs:
             candidate = current + [job]
+            render_heading = heading if not section_started else None
             over_job_cap = max_jobs > 0 and len(candidate) > max_jobs
-            over_char_cap = len(_render_body_unbounded(candidate, heading)) > max_chars
+            over_char_cap = len(_render_body_unbounded(candidate, render_heading)) > max_chars
             if current and (over_job_cap or over_char_cap):
-                bodies.append(_render_body(current, max_chars, heading))
+                bodies.append(_render_body(current, max_chars, render_heading))
+                section_started = True
                 current = [job]
             else:
                 current = candidate
         if current:
-            bodies.append(_render_body(current, max_chars, heading))
+            render_heading = heading if not section_started else None
+            bodies.append(_render_body(current, max_chars, render_heading))
 
     return bodies
 
