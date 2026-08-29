@@ -16,6 +16,9 @@ from .models import Job
 
 _YEAR_RE = re.compile(r"\b(20\d{2})\b")
 _NEW_GRAD_TITLE_RE = re.compile(r"\bnew\s+(?:grad|graduate)\b", re.IGNORECASE)
+_TOP_MATCH_TITLE_RE = re.compile(
+    r"\b(?:new\s+(?:grad|graduate)|entry)\b", re.IGNORECASE
+)
 
 # Map detection keywords -> canonical season label.
 _SEASON_KEYWORDS = [
@@ -45,9 +48,14 @@ def is_new_grad_title(title: str) -> bool:
     return bool(_NEW_GRAD_TITLE_RE.search(title or ""))
 
 
+def is_top_match_title(title: str) -> bool:
+    """Return whether a title contains a strong entry-level signal."""
+    return bool(_TOP_MATCH_TITLE_RE.search(title or ""))
+
+
 def match_priority(job: Job) -> int:
     """Return the notification priority for a filtered job."""
-    return 1 if is_new_grad_title(job.title) else 0
+    return 1 if is_top_match_title(job.title) else 0
 
 
 @lru_cache(maxsize=8)
