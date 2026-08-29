@@ -1,7 +1,7 @@
 """Filter behaviour against the real config/filters.yaml."""
 
 from src import config
-from src.filters import is_new_grad_title, match_priority, passes
+from src.filters import is_new_grad_title, is_top_match_title, match_priority, passes
 from src.models import Job
 
 
@@ -26,9 +26,17 @@ def test_new_grad_titles_are_high_priority():
     )
 
 
+def test_entry_titles_are_top_matches():
+    assert is_top_match_title("Entry-Level Software Engineer")
+    assert match_priority(_job("Entry Software Engineer")) > match_priority(
+        _job("Software Engineer")
+    )
+
+
 def test_new_grad_title_matching_uses_word_boundaries():
     assert is_new_grad_title("New Graduate Program Manager")
     assert not is_new_grad_title("New Grading Engineer")
+    assert not is_top_match_title("Entryway Software Engineer")
 
 
 def test_swe_fulltime_us_kept():
