@@ -1,10 +1,4 @@
 {
-  "001234bbd9b3892c": {
-    "company": "Pharo Management",
-    "first_seen": "2026-07-09",
-    "title": "Trading Assistant",
-    "url": "https://job-boards.greenhouse.io/pharomanagement/jobs/7798505003"
-  },
   "00143477efc041f8": {
     "company": "Airbnb",
     "first_seen": "2026-09-18",
@@ -154,6 +148,12 @@
     "first_seen": "2026-10-31",
     "title": "COBOL Software Developer",
     "url": "https://peraton.jibeapply.com/jobs/169891?icims=1"
+  },
+  "0114d3c768bece58": {
+    "company": "Microsoft",
+    "first_seen": "2026-11-07",
+    "title": "Software Engineer",
+    "url": "https://apply.careers.microsoft.com/careers/job/1970393557053350"
   },
   "011af780c05084eb": {
     "company": "SpaceX",
@@ -515,12 +515,6 @@
     "title": "Systems Engineering Integration & Test Engineer - Tides FPGA - Pie",
     "url": "https://careers-gdms.icims.com/jobs/74794/job?mobile=true&needsRedirect=false"
   },
-  "03b869e1cc6399df": {
-    "company": "Kearny Bank",
-    "first_seen": "2026-07-09",
-    "title": "Data Analyst",
-    "url": "https://careers-kearnybank.icims.com/jobs/3162/job?mobile=true&needsRedirect=false"
-  },
   "03c3e0008f77b635": {
     "company": "Revionics",
     "first_seen": "2026-10-25",
@@ -784,12 +778,6 @@
     "first_seen": "2026-08-31",
     "title": "Software Engineer, HITL - Top Secret Clearance",
     "url": "https://boards.greenhouse.io/spacex/jobs/8749210002?gh_jid=8749210002"
-  },
-  "059a8ba735741951": {
-    "company": "JP Morgan Chase",
-    "first_seen": "2026-07-09",
-    "title": "Trading Services Associate 1",
-    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210767714"
   },
   "05a61940c7c92e71": {
     "company": "Logos Space",
@@ -2603,12 +2591,6 @@
     "title": "Software Engineer - Enterprise Software",
     "url": "https://careers.rivian.com/jobs/30795?icims=1"
   },
-  "130b0c5a9f9019bf": {
-    "company": "Jump Trading",
-    "first_seen": "2026-07-09",
-    "title": "Campus Quantitative Trader (Full-Time)",
-    "url": "https://www.jumptrading.com/hr/job?gh_jid=7982619"
-  },
   "13130dbf115a5031": {
     "company": "Draper",
     "first_seen": "2026-09-23",
@@ -3155,12 +3137,6 @@
     "title": "Software Engineer - Beam Planning - Starlink",
     "url": "https://boards.greenhouse.io/spacex/jobs/8578907002"
   },
-  "164fdc78ca151dea": {
-    "company": "Momentum",
-    "first_seen": "2026-07-09",
-    "title": "Launch Graduate Program: Associate Enterprise Systems Analyst",
-    "url": "https://job-boards.greenhouse.io/momentumcompany3/jobs/8606824002"
-  },
   "165961e7ee7b1811": {
     "company": "Anduril",
     "first_seen": "2026-11-02",
@@ -3244,12 +3220,6 @@
     "first_seen": "2026-08-03",
     "title": "Software Engineer New Grad - Quality and Efficiency Technology",
     "url": "https://lifeattiktok.com/search/7668680253677504821"
-  },
-  "16b2e9e0d1259bee": {
-    "company": "VF",
-    "first_seen": "2026-07-09",
-    "title": "Associate Merchandiser - Footwear",
-    "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/USCA--USA--New-Hampshire--Stratham-Domain-Dr-HQ---TBL/Timberland--Associate-Merchandiser--Footwear_R-20260624-0008-2"
   },
   "16bea6d3160245e8": {
     "company": "TSC",
@@ -3455,12 +3425,6 @@
     "title": "CHI - 2026 - Systems Engineer",
     "url": "https://job-boards.eu.greenhouse.io/imc/jobs/5004989101"
   },
-  "188fa663e7e69794": {
-    "company": "SpaceX",
-    "first_seen": "2026-07-09",
-    "title": "Software Engineer, Components (Starshield)",
-    "url": "https://boards.greenhouse.io/spacex/jobs/8625617002?gh_jid=8625617002"
-  },
   "18a556e96cc28332": {
     "company": "RTX",
     "first_seen": "2026-08-11",
@@ -3544,12 +3508,6 @@
     "first_seen": "2026-08-30",
     "title": "Software Engineer (Application Software)",
     "url": "https://boards.greenhouse.io/spacex/jobs/8763491002?gh_jid=8763491002"
-  },
-  "190a23a829e5ee0d": {
-    "company": "Salesforce",
-    "first_seen": "2026-07-09",
-    "title": "Business Development Associate",
-    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Illinois---Chicago/Business-Development-Associate_JR347430-1"
   },
   "190bd93544a3a321": {
     "company": "Nidec",
@@ -4475,12 +4433,6 @@
     "title": "Fluid Systems Engineer, Solar Cell Factory (Starlink)",
     "url": "https://boards.greenhouse.io/spacex/jobs/8672670002?gh_jid=8672670002"
   },
-  "1f36ecce9c35b748": {
-    "company": "Morgan Stanley",
-    "first_seen": "2026-07-09",
-    "title": "Registered Client Service Associate",
-    "url": "https://ms.wd5.myworkdayjobs.com/en-US/External/job/Valencia-California-United-States-of-America/Registered-Client-Service-Associate_JR040311"
-  },
   "1f394027012039cd": {
     "company": "Robinhood",
     "first_seen": "2026-09-23",
@@ -5111,12 +5063,6 @@
     "title": "Software Engineer, Optimus",
     "url": "https://go.vansh.nyc/lr"
   },
-  "23e1d887aef99764": {
-    "company": "BlackRock",
-    "first_seen": "2026-07-09",
-    "title": "Quant Research Analyst",
-    "url": "https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional/job/San-Francisco-CA/Analyst--Quant-Research_R264912"
-  },
   "23e38d3484a2a255": {
     "company": "Affirm",
     "first_seen": "2026-07-13",
@@ -5230,12 +5176,6 @@
     "first_seen": "2026-09-22",
     "title": "Full-stack Engineer 4",
     "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Plano-TX/Full-stack-Engineer-4_R1001684-1"
-  },
-  "248c3ca7b301a7ad": {
-    "company": "Jump Trading",
-    "first_seen": "2026-07-09",
-    "title": "Quantitative Researcher",
-    "url": "https://boards.greenhouse.io/embed/job_app?token=7728630"
   },
   "248d7fe16465f5f4": {
     "company": "Capital One",
@@ -5788,12 +5728,6 @@
     "first_seen": "2026-09-23",
     "title": "Full-stack Engineer 5  (Typescript/Nodejs/Python)",
     "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Plano-TX/Full-stack-Engineer-5---Typescript-Nodejs-Python-_R1001688-1"
-  },
-  "29424ae8bb784d0a": {
-    "company": "KeyBank",
-    "first_seen": "2026-07-09",
-    "title": "Quant Analytics Associate - Model Risk",
-    "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/Quant-Analytics-Assoc---Model-Risk_R-36436"
   },
   "29465cc905579df2": {
     "company": "Jobsbridge",
@@ -6515,12 +6449,6 @@
     "title": "Software Engineer - Hil",
     "url": "https://boards.greenhouse.io/neuralink/jobs/8005730003"
   },
-  "2eda8de03e02544c": {
-    "company": "The Boeing Company",
-    "first_seen": "2026-07-09",
-    "title": "Associate ASIC and/or FPGA Design and Verification Engineer",
-    "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Tukwila-WA/Associate-ASIC-and-or-FPGA-Design-and-Verification-Engineer_JR2026517089-1"
-  },
   "2ee188c52e4e6bf2": {
     "company": "Capital One",
     "first_seen": "2026-09-30",
@@ -7121,12 +7049,6 @@
     "title": "Software Engineer, Astral",
     "url": "https://jobs.ashbyhq.com/openai/00205d4e-9933-4057-8115-50b08d112ad1"
   },
-  "33025a1267d98749": {
-    "company": "Thoughtworks",
-    "first_seen": "2026-07-09",
-    "title": "Graduate Developer",
-    "url": "https://www.thoughtworks.com/careers/jobs/8037730?gh_jid=8037730"
-  },
   "330926eba7be2661": {
     "company": "KLA",
     "first_seen": "2026-09-23",
@@ -7685,12 +7607,6 @@
     "title": "Software Engineer 1",
     "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-MARLBOROUGH-MA4--1001-Boston-Post-Rd--BLDG-4/Software-Engineer-I--Onsite-_01882283"
   },
-  "36255a4a48a83be9": {
-    "company": "Koalafi",
-    "first_seen": "2026-07-09",
-    "title": "Associate Data Scientist",
-    "url": "https://boards.greenhouse.io/koalafi/jobs/6110802004"
-  },
   "36350750b41d7e8c": {
     "company": "NVIDIA",
     "first_seen": "2026-10-12",
@@ -7895,12 +7811,6 @@
     "title": "Software Engineer 1",
     "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MD-FULTON-8170--8170-Maple-Lawn-Blvd--MAPLE-LAWN-Ste-190-200--300/Software-Engineer-I--Onsite-_01858115"
   },
-  "374d1cbe23139222": {
-    "company": "Trio",
-    "first_seen": "2026-07-09",
-    "title": "Energy Analyst",
-    "url": "https://jobs.lever.co/trio/21f7e6e8-1357-4c31-a04c-36f1e48853a8/apply"
-  },
   "3754bc27b59346b6": {
     "company": "Stripe",
     "first_seen": "2026-08-18",
@@ -7954,12 +7864,6 @@
     "first_seen": "2026-09-23",
     "title": "Full-Stack Engineer 4 (Risk Tech)",
     "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Full-Stack-Engineer-4--Risk-Tech-_R1001842-1"
-  },
-  "378b06600dc57558": {
-    "company": "The Boeing Company",
-    "first_seen": "2026-07-09",
-    "title": "Associate ASIC and/or FPGA Design and Verification Engineer",
-    "url": "https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/USA---Tukwila-WA/Associate-ASIC-and-or-FPGA-Design-and-Verification-Engineer_JR2026517089"
   },
   "378c55880bbb11e6": {
     "company": "Stripe",
@@ -8045,18 +7949,6 @@
     "title": "Software Developer",
     "url": "https://bcbsaz.wd1.myworkdayjobs.com/en-US/bcbsazcareers/job/AZ-Blue-Phoenix-AZ-85021/Software-Developer---Hybrid_R6309-1"
   },
-  "381ba875350a4ea2": {
-    "company": "Confluence Technologies",
-    "first_seen": "2026-07-09",
-    "title": "Data Engineer Associate - Data Platform - Data Pipelines",
-    "url": "https://confluence.pinpointhq.com/en/postings/fcbb93f0-38bb-42ba-8f6e-e0141576d0d7?ats=pinpointhq"
-  },
-  "3831632036470e76": {
-    "company": "NVIDIA",
-    "first_seen": "2026-07-09",
-    "title": "System Software Engineer, AI Data Platform",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Vietnam-Ho-Chi-Minh-City/System-Software-Engineer--AI-Data-Platform_JR2020889"
-  },
   "38472dd3cb4619b0": {
     "company": "NVIDIA",
     "first_seen": "2026-08-21",
@@ -8110,12 +8002,6 @@
     "first_seen": "2026-08-04",
     "title": "Software Engineer, Air & Missile Defense",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5203040007?gh_jid=5203040007"
-  },
-  "38c4fb98395478a7": {
-    "company": "BlueCross BlueShield of South Carolina",
-    "first_seen": "2026-07-09",
-    "title": "Benefit Files Analyst 1",
-    "url": "https://ourhrconnect.wd501.myworkdayjobs.com/SCBlues/job/Columbia-South-Carolina/Benefit-Files-Analyst-I_R1051329-1"
   },
   "38c7b4c4d7447dbb": {
     "company": "RTX",
@@ -8279,12 +8165,6 @@
     "title": "Software Engineer - FIS University Program",
     "url": "https://fis.wd5.myworkdayjobs.com/searchjobs/job/US-FL-JAX-347/Software-Engineering--FIS-University-Program_JR0309486"
   },
-  "39c9bcac0895723b": {
-    "company": "The Boeing Company",
-    "first_seen": "2026-07-09",
-    "title": "Modernization Software Engineer",
-    "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Colorado-Springs-CO/Modernization-Software-Engineer--Associate-or-Mid-Level-_JR2026515908-2"
-  },
   "39df125e4bf1475c": {
     "company": "OpenAI",
     "first_seen": "2026-10-26",
@@ -8386,12 +8266,6 @@
     "first_seen": "2026-11-02",
     "title": "Software Engineering IC2",
     "url": "https://apply.careers.microsoft.com/careers/job/1970393557050639"
-  },
-  "3a9d501cc12b531d": {
-    "company": "Anduril",
-    "first_seen": "2026-07-09",
-    "title": "Mission Software Engineer",
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5092737007?gh_jid=5092737007"
   },
   "3a9d9a55bd9bcac8": {
     "company": "Noblis",
@@ -9293,6 +9167,12 @@
     "title": "New Grad 2027: Software Development Engineer",
     "url": "https://go.vansh.nyc/HL"
   },
+  "3fd453c1a2197693": {
+    "company": "Visionist",
+    "first_seen": "2026-11-07",
+    "title": "Software Engineer - Inference",
+    "url": "https://jobs.jobvite.com/visionist/job/otszAfwO?nl=1&nl=1&fr=false"
+  },
   "3fd832ba4b42d586": {
     "company": "Capital One",
     "first_seen": "2026-09-22",
@@ -9761,12 +9641,6 @@
     "title": "Software Engineer 1",
     "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineer-I--Onsite-_01875410"
   },
-  "4334f5556c862f67": {
-    "company": "Jump Trading",
-    "first_seen": "2026-07-09",
-    "title": "Campus Quantitative Trader",
-    "url": "https://boards.greenhouse.io/embed/job_app?token=7982619"
-  },
   "43397c0927451f0b": {
     "company": "Julius AI",
     "first_seen": "2026-10-26",
@@ -10150,12 +10024,6 @@
     "first_seen": "2026-10-21",
     "title": "Software Engineer 1",
     "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineer-I--Onsite-_01875410-1"
-  },
-  "45db493e665964b5": {
-    "company": "Cincinnati Children’s Hospital and Medical Center",
-    "first_seen": "2026-07-09",
-    "title": "Application Developer 1 - Power Platform",
-    "url": "https://cincinnatichildrens.wd5.myworkdayjobs.com/careersatcincinnatichildrens/job/Offices-at-Vernon-Place/Application-Developer-I--Power-Platform_JR222607"
   },
   "45ee1fd9351dbb04": {
     "company": "SpaceX",
@@ -10673,12 +10541,6 @@
     "title": "Software Developer 1",
     "url": "https://ucf.wd1.myworkdayjobs.com/careers/job/RESEARCH-PARK/Software-Developer-I_R113738"
   },
-  "49870e569e43b995": {
-    "company": "Apex Service Partners",
-    "first_seen": "2026-07-09",
-    "title": "Business Intelligence Analyst - Data & Analytics",
-    "url": "https://careers-apexservicepartners.icims.com/jobs/22843/job?mobile=true&needsRedirect=false"
-  },
   "498c794a817c78b1": {
     "company": "Coinbase",
     "first_seen": "2026-08-29",
@@ -10720,12 +10582,6 @@
     "first_seen": "2026-10-04",
     "title": "Software Engineer-On Call",
     "url": "https://careers.arcfield.com/jobs/8675?icims=1"
-  },
-  "49eab63b0f775c4a": {
-    "company": "SpaceX",
-    "first_seen": "2026-07-09",
-    "title": "Production Associate (Starlink/Akoustis)",
-    "url": "https://boards.greenhouse.io/spacex/jobs/8626973002?gh_jid=8626973002"
   },
   "49ed9e4577bb9f5f": {
     "company": "SpaceX",
@@ -11243,12 +11099,6 @@
     "title": "Software Engineer, Rider",
     "url": "https://go.vansh.nyc/kO"
   },
-  "4d75ae75076cff4f": {
-    "company": "BlueCross BlueShield of South Carolina",
-    "first_seen": "2026-07-09",
-    "title": "Benefit Files Analyst 1",
-    "url": "https://ourhrconnect.wd501.myworkdayjobs.com/SCBlues/job/Columbia-South-Carolina/Benefit-Files-Analyst-I_R1051393"
-  },
   "4d791a94fb3aa097": {
     "company": "SpaceX",
     "first_seen": "2026-10-26",
@@ -11645,12 +11495,6 @@
     "title": "Software Engineer - AI Pdlc",
     "url": "https://homedepot.wd5.myworkdayjobs.com/careerdepot/job/GEORGIA---VIRTUAL---GA01/Software-Engineer---AI-PDLC--Remote-_Req187159"
   },
-  "50840a3f27d7bb0c": {
-    "company": "The Boeing Company",
-    "first_seen": "2026-07-09",
-    "title": "Development Security & Operations Associate - Devsecops - Software Engineer",
-    "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Colorado-Springs-CO/Development-Security---Operations--DevSecOps--Software-Engineer--Associate-or-Mid-Level-_JR2026515911-1"
-  },
   "508a5822865c18c5": {
     "company": "TikTok",
     "first_seen": "2026-10-26",
@@ -11674,12 +11518,6 @@
     "first_seen": "2026-10-25",
     "title": "Quantitative Developer",
     "url": "https://go.vansh.nyc/jX"
-  },
-  "50bcfe6ee76b5bd7": {
-    "company": "Salesforce",
-    "first_seen": "2026-07-09",
-    "title": "Software Engineering MTS - Full-Stack/Agentic AI Engineer",
-    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-MTS---Full-Stack-Agentic-AI-Engineer_JR350332"
   },
   "50c5faf476d0a2d6": {
     "company": "Palo Alto Networks",
@@ -11962,12 +11800,6 @@
     "first_seen": "2026-08-07",
     "title": "Software Engineer College Grad",
     "url": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_NewGradRoles/job/California---San-Francisco/Software-Engineering-AMTS--College-Grad-_JR355250"
-  },
-  "5277f041332d785d": {
-    "company": "CACI",
-    "first_seen": "2026-07-09",
-    "title": "Junior Software Engineer",
-    "url": "https://caci.wd1.myworkdayjobs.com/external/job/Denver-CO-US/Junior-Software-Engineer_327867"
   },
   "52836d1e28573c0c": {
     "company": "Salesforce",
@@ -12340,12 +12172,6 @@
     "first_seen": "2026-10-20",
     "title": "Software Engineer",
     "url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh/job/Oshkosh-Wisconsin-United-States/Engineer---Software_R50645"
-  },
-  "55543e2c3cf8ce86": {
-    "company": "Genuine Parts Company",
-    "first_seen": "2026-07-09",
-    "title": "Product Information Management Data Analyst",
-    "url": "https://genpt.wd1.myworkdayjobs.com/Careers/job/Birmingham-AL-USA/PIM-Data-Analyst_R26_0000019236"
   },
   "556a01febe451ad1": {
     "company": "OpenAI",
@@ -12977,12 +12803,6 @@
     "title": "Software Engineer, Backend - Payments Platform",
     "url": "https://www.coinbase.com/careers/positions/8247397?gh_jid=8247397"
   },
-  "5965e89dedb3486b": {
-    "company": "Salesforce",
-    "first_seen": "2026-07-09",
-    "title": "Software Engineering LMTS - Tableau",
-    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-LMTS---Tableau_JR327543"
-  },
   "596bfee00312cf05": {
     "company": "NVIDIA",
     "first_seen": "2026-10-26",
@@ -13331,12 +13151,6 @@
     "title": "Software Engineer, Rider",
     "url": "https://go.vansh.nyc/kO"
   },
-  "5bfa9b955999a6ef": {
-    "company": "Tesla",
-    "first_seen": "2026-07-09",
-    "title": "Energy Analyst - Residential Energy",
-    "url": "https://www.tesla.com/careers/search/job/276044"
-  },
   "5c1480ac0e3a4817": {
     "company": "General Motors",
     "first_seen": "2026-09-10",
@@ -13378,12 +13192,6 @@
     "first_seen": "2026-10-28",
     "title": "Forward Deployed Software Engineer - Germany Forward Deployed",
     "url": "https://jobs.lever.co/palantir/491a0133-b580-45c3-9fd4-2314faf82fb9"
-  },
-  "5c53538b9f936abe": {
-    "company": "Morgan Stanley",
-    "first_seen": "2026-07-09",
-    "title": "Registered Client Service Associate",
-    "url": "https://ms.wd5.myworkdayjobs.com/en-US/External/job/Colorado-Springs-Colorado-United-States-of-America/Registered-Client-Service-Associate_JR039865"
   },
   "5c5ef36df3c03f05": {
     "company": "Chevron Corporation",
@@ -13498,12 +13306,6 @@
     "first_seen": "2026-09-13",
     "title": "Software Developer",
     "url": "https://jobs.lever.co/kitware/dbaac56b-26b2-43b9-8ae3-354b6662ea89/apply"
-  },
-  "5d12288970e47670": {
-    "company": "Applied Information Sciences",
-    "first_seen": "2026-07-09",
-    "title": "Program Analyst",
-    "url": "https://appliedis.wd5.myworkdayjobs.com/ais_careers/job/Client-Site---Washington-DC/Program-Analyst_JR2026001282"
   },
   "5d1e69d277201e8e": {
     "company": "Scale AI",
@@ -13660,12 +13462,6 @@
     "first_seen": "2026-10-28",
     "title": "Full-stack Engineer 4 (Bank Tech)",
     "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Full-stack-Engineer-4--Bank-Tech-_R1004516-1"
-  },
-  "5e753af8bd8da15d": {
-    "company": "Salesforce",
-    "first_seen": "2026-07-09",
-    "title": "Software Engineering MTS - Full-Stack/Agentic AI Engineer",
-    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering-MTS---Full-Stack-Agentic-AI-Engineer_JR350329"
   },
   "5e833339ab746be3": {
     "company": "RTX",
@@ -13853,12 +13649,6 @@
     "title": "Embedded Software Engineer",
     "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Schaumburg-IL/Embedded-Software-Engineer_R67073"
   },
-  "5fcc1ce0d4e849af": {
-    "company": "Wood",
-    "first_seen": "2026-07-09",
-    "title": "Data Analyst 1",
-    "url": "https://ehif.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/30525"
-  },
   "5fd457692f9ba42a": {
     "company": "Stripe",
     "first_seen": "2026-08-17",
@@ -13961,12 +13751,6 @@
     "title": "Systems Engineer (Level 6 or 7)",
     "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Texas---Dallas/Systems-Engineer--Level-6-or-7-_JR366398"
   },
-  "6070032d2ed28f2a": {
-    "company": "Morgan Stanley",
-    "first_seen": "2026-07-09",
-    "title": "Client Relationship Analyst",
-    "url": "https://ms.wd5.myworkdayjobs.com/en-US/External/job/Cincinnati-Ohio-United-States-of-America/Client-Relationship-Analyst_JR040375"
-  },
   "60730b86621d01b2": {
     "company": "Capital One",
     "first_seen": "2026-09-24",
@@ -14068,6 +13852,12 @@
     "first_seen": "2026-10-09",
     "title": "Engineer 1 - Systems Software Engineering",
     "url": "https://myhrabc.wd5.myworkdayjobs.com/Global/job/Remote-Pennsylvania/Engineer-I--Systems-Software-Engineering_R2614401"
+  },
+  "616bc515f1f4d1ec": {
+    "company": "ICF International",
+    "first_seen": "2026-11-07",
+    "title": "Software Developer",
+    "url": "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Richmond-VA/Software-Developer_R2603769"
   },
   "6171ea1bd40f9593": {
     "company": "TikTok",
@@ -14243,18 +14033,6 @@
     "title": "Software Engineer 1 New Grad",
     "url": "https://job-boards.greenhouse.io/affirm/jobs/8008649003"
   },
-  "62cc8af6b50a14ec": {
-    "company": "RTX",
-    "first_seen": "2026-07-09",
-    "title": "Embedded Linux Software Engineer 1",
-    "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-IA-CEDAR-RAPIDS-121--350-Collins-Rd-NE--BLDG-121/Embedded-Linux-Software-Engineer-I--Onsite-_01793223-2"
-  },
-  "62d47e9e309a0bc6": {
-    "company": "Cambridge Associates",
-    "first_seen": "2026-07-09",
-    "title": "Investment Analyst - Venture Capital",
-    "url": "https://cambridgeassociates.wd5.myworkdayjobs.com/Cambridge_Associates/job/Boston/Investment-Analyst--Venture-Capital_JR0000335"
-  },
   "62d76b685baf408b": {
     "company": "Robinhood",
     "first_seen": "2026-09-08",
@@ -14278,12 +14056,6 @@
     "first_seen": "2026-09-26",
     "title": "Software Engineer, ML Research Tools",
     "url": "https://jobs.ashbyhq.com/cursor/c1ac67d4-645a-4632-a178-ea6b5f49bb26"
-  },
-  "62f08621c4486501": {
-    "company": "Western Digital",
-    "first_seen": "2026-07-09",
-    "title": "Software Development Engineer - Firmware",
-    "url": "https://jobs.smartrecruiters.com/WesternDigital/744000136502059"
   },
   "62fe40c8fb40b57c": {
     "company": "Philips",
@@ -15089,12 +14861,6 @@
     "title": "Junior Software Engineer - Prime",
     "url": "https://intelliforceitsolutionsgroup.applytojob.com/apply/7PKaVRIpoz/Junior-Software-Engineer-Prime"
   },
-  "67ba98a4438ca897": {
-    "company": "SpaceX",
-    "first_seen": "2026-07-09",
-    "title": "Software Engineer, Components Test (Starshield)",
-    "url": "https://boards.greenhouse.io/spacex/jobs/8625615002?gh_jid=8625615002"
-  },
   "67d1f3c1ba09045d": {
     "company": "Boeing",
     "first_seen": "2026-10-09",
@@ -15154,6 +14920,12 @@
     "first_seen": "2026-10-29",
     "title": "Software Engineer, ERP Applications & Development",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5279793007?gh_jid=5279793007"
+  },
+  "685e6881141abee5": {
+    "company": "Charles Schwab",
+    "first_seen": "2026-11-07",
+    "title": "Junior Software Developer",
+    "url": "https://career-schwab.icims.com/jobs/129410/job?mobile=true&needsRedirect=false"
   },
   "686a4ff72aa6c8b2": {
     "company": "Scale AI",
@@ -15485,6 +15257,12 @@
     "title": "New Grad 2027: Backend Software Engineer",
     "url": "https://job-boards.greenhouse.io/verkada/jobs/5280545007"
   },
+  "6b44da3d129afc4b": {
+    "company": "Nightwing Intelligence Solutions",
+    "first_seen": "2026-11-07",
+    "title": "Software Developer 1 - System Security",
+    "url": "https://nwis.wd12.myworkdayjobs.com/NW/job/AL600--600-Boulevard-South-Ste-301-Huntsville-AL-35802/Software-Developer-I--System-Security-_JR102225"
+  },
   "6b49b56a16a9f6e8": {
     "company": "Lumafield",
     "first_seen": "2026-10-25",
@@ -15586,12 +15364,6 @@
     "first_seen": "2026-10-25",
     "title": "New Grad 2027: Software Development Engineer 1, Annapurna Labs",
     "url": "https://go.vansh.nyc/Bg"
-  },
-  "6c0a0350cd84dd20": {
-    "company": "Jump Trading",
-    "first_seen": "2026-07-09",
-    "title": "Campus Systems Engineer (Full-Time)",
-    "url": "https://www.jumptrading.com/hr/job?gh_jid=8008112"
   },
   "6c1aafc6b04da260": {
     "company": "RTX",
@@ -15785,12 +15557,6 @@
     "title": "Software Engineer - Embedded Software/Firmware Development - Embedded Image Processing (Master's)",
     "url": "https://go.vansh.nyc/DG"
   },
-  "6d34f6cfcec2cdf9": {
-    "company": "Rocket Companies",
-    "first_seen": "2026-07-09",
-    "title": "IOS Mobile Software Developer 1",
-    "url": "https://quickenloans.wd5.myworkdayjobs.com/rocket_careers/job/Seattle-WA/iOS-Mobile-Software-Developer-I_R-083670-1"
-  },
   "6d35d20b81994c8d": {
     "company": "STCU",
     "first_seen": "2026-08-25",
@@ -15952,12 +15718,6 @@
     "first_seen": "2026-10-25",
     "title": "New Grad: Software Engineer",
     "url": "https://go.vansh.nyc/lC"
-  },
-  "6e3e5d20b8212a2d": {
-    "company": "Morgan Stanley",
-    "first_seen": "2026-07-09",
-    "title": "Client Relationship Analyst",
-    "url": "https://ms.wd5.myworkdayjobs.com/en-US/External/job/Birmingham-Michigan-United-States-of-America/Client-Relationship-Analyst_JR040397"
   },
   "6e4b038873cda727": {
     "company": "Wells Fargo",
@@ -16319,12 +16079,6 @@
     "title": "New Grad 2027: Machine Learning Engineer, TikTok Vertical Recommendation",
     "url": "https://lifeattiktok.com/search/7672532275557583157"
   },
-  "714504f269b261f1": {
-    "company": "Morgan Stanley",
-    "first_seen": "2026-07-09",
-    "title": "Client Relationship Analyst",
-    "url": "https://ms.wd5.myworkdayjobs.com/en-US/External/job/Columbus-Ohio-United-States-of-America/Client-Relationship-Analyst_JR040406"
-  },
   "714cd2b064394e74": {
     "company": "Databricks",
     "first_seen": "2026-09-16",
@@ -16342,6 +16096,12 @@
     "first_seen": "2026-08-01",
     "title": "Computer Vision/Machine Learning/Deep Learning Algorithm Developer",
     "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/CV-ML-DL-Algorithm-Developer_R2612906"
+  },
+  "71708f0c5fe3a35a": {
+    "company": "RTX",
+    "first_seen": "2026-11-07",
+    "title": "Software Engineer 1",
+    "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-TEWKSBURY-TB3--50-Apple-Hill-Dr--CONCORD-BLDG-Tewksbury-Tb3-300-Concord/Software-Engineer-I_01885871-1"
   },
   "7171e0aa0ecf813a": {
     "company": "Raytheon Technologies",
@@ -16553,12 +16313,6 @@
     "title": "Mission Software Engineer, Vehicle Software, C++",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/4672888007?gh_jid=4672888007"
   },
-  "72e088d27217b548": {
-    "company": "Morgan Stanley",
-    "first_seen": "2026-07-09",
-    "title": "Registered Client Service Associate",
-    "url": "https://ms.wd5.myworkdayjobs.com/en-US/External/job/Fort-Lauderdale-Florida-United-States-of-America/Registered-Client-Service-Associate_JR040020"
-  },
   "72e2866c74f3a60a": {
     "company": "KBR",
     "first_seen": "2026-08-01",
@@ -16690,12 +16444,6 @@
     "first_seen": "2026-10-25",
     "title": "Software Engineer",
     "url": "https://go.vansh.nyc/jI"
-  },
-  "73fc2351ad62eecb": {
-    "company": "Walmart",
-    "first_seen": "2026-07-09",
-    "title": "Software Engineer 3",
-    "url": "https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/Bentonville-AR/Software-Engineer-III_R-2556771"
   },
   "73fe904a476dc4d9": {
     "company": "DTCC",
@@ -16870,6 +16618,12 @@
     "first_seen": "2026-10-26",
     "title": "Software Engineer, Financial Engineering",
     "url": "https://jobs.ashbyhq.com/openai/4ef5bf23-cf0e-4b97-a639-11f963c99b88"
+  },
+  "74e99b9c6dfe7fd3": {
+    "company": "Cook Group",
+    "first_seen": "2026-11-07",
+    "title": "Software Engineer 1 - Full-Stack",
+    "url": "https://americas-cookmedical.icims.com/jobs/20446/job?mobile=true&needsRedirect=false"
   },
   "74f72bd599e45649": {
     "company": "Capital One",
@@ -17224,6 +16978,12 @@
     "first_seen": "2026-10-26",
     "title": "New Grad 2027: Software Engineer",
     "url": "https://go.vansh.nyc/KE"
+  },
+  "774e1998b49e2387": {
+    "company": "Wells Fargo",
+    "first_seen": "2026-11-07",
+    "title": "Software Engineer",
+    "url": "https://wd1.myworkdaysite.com/recruiting/wf/WellsFargoJobs/job/IRVING-TX/Software-Engineer_R-586193-1"
   },
   "774fbf93a3c506aa": {
     "company": "JP Morgan Chase",
@@ -17651,12 +17411,6 @@
     "title": "Raytheon Software Engineer 1 - Electro-Optical/Infrared Advanced Products and Solutions",
     "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WC--2501-W-University-Dr--WING-C-BLDG/XMLNAME-2026-Raytheon-Full-Time-Software-Engineer-I---EOIR-Advanced-Products-and-Solutions--Onsite-_01851718"
   },
-  "79ca3effb3375c8a": {
-    "company": "Salesforce",
-    "first_seen": "2026-07-09",
-    "title": "Global Incentive Compensation Analyst",
-    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Indiana---Indianapolis/Global-Incentive-Compensation-Analyst---Plan-Operations_JR302303"
-  },
   "79ce16822029c64f": {
     "company": "University of Arkansas",
     "first_seen": "2026-07-23",
@@ -17741,12 +17495,6 @@
     "title": "Embedded Software Engineer 1",
     "url": "https://gentex.wd5.myworkdayjobs.com/Gentex/job/Zeeland-MI/Embedded-Software-Engineer-I_REQ026014"
   },
-  "7a5eaf7c371539f1": {
-    "company": "Northrop Grumman",
-    "first_seen": "2026-07-09",
-    "title": "Associate Cyber Software Engineer",
-    "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Virginia-Chantilly/R10206390-22026-Associate-Cyber-Software-Engineer---Chantilly-VA_R10236425"
-  },
   "7a73a88e49ef5d51": {
     "company": "Canonical",
     "first_seen": "2026-10-23",
@@ -17770,12 +17518,6 @@
     "first_seen": "2026-08-10",
     "title": "IMC Trading Sim - Singapore",
     "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4942161101"
-  },
-  "7aa5a20f5c7919a7": {
-    "company": "Stripe",
-    "first_seen": "2026-07-09",
-    "title": "Security Analyst, Bug Bounty",
-    "url": "https://stripe.com/jobs/search?gh_jid=7979393"
   },
   "7aab29953d823fcc": {
     "company": "Anduril",
@@ -17938,12 +17680,6 @@
     "first_seen": "2026-10-25",
     "title": "Mobile App Developer, Frontend, Claims & Customer Support",
     "url": "https://go.vansh.nyc/qZ"
-  },
-  "7b9e2e23d88be46d": {
-    "company": "Northrop Grumman",
-    "first_seen": "2026-07-09",
-    "title": "Associate Data Scientist/Data Scientist",
-    "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Palmdale/Associate-Data-Scientist-Data-Scientist_R10238493"
   },
   "7ba328251e157d34": {
     "company": "Cisco",
@@ -18448,12 +18184,6 @@
     "first_seen": "2026-08-27",
     "title": "C++ Developer",
     "url": "https://job-boards.eu.greenhouse.io/thinkcellsoftware/jobs/4844280101"
-  },
-  "7f259ecdb1303dd5": {
-    "company": "Travelers",
-    "first_seen": "2026-07-09",
-    "title": "Software Engineer 1 - AI Driven",
-    "url": "https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Software-Engineer-I--AI-Driven-_R-51215"
   },
   "7f31679a56d6e3ed": {
     "company": "Notion",
@@ -19115,12 +18845,6 @@
     "title": "New Grad 2027: Software Engineer 1",
     "url": "https://go.vansh.nyc/AC"
   },
-  "84b128608cd761c1": {
-    "company": "Northrop Grumman",
-    "first_seen": "2026-07-09",
-    "title": "Software Engineer 1 or 2",
-    "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/Software-Engineer-Level-1-or-2_R10239507"
-  },
   "84b83dd43981545f": {
     "company": "Charta Health",
     "first_seen": "2026-08-18",
@@ -19150,12 +18874,6 @@
     "first_seen": "2026-11-05",
     "title": "New Grad 2027: Software Development Engineer, Amazon Leo",
     "url": "https://www.amazon.jobs/en/jobs/10597803/software-development-engineer-amazon-leo-early-career-2027-us"
-  },
-  "8500d5f73dd7702a": {
-    "company": "Cubic",
-    "first_seen": "2026-07-09",
-    "title": "Software Engineer",
-    "url": "https://cubic.wd1.myworkdayjobs.com/cubic_USA_careers/job/San-Diego-California/Software-Engineer_REQ_49386"
   },
   "851d6b4966d50df0": {
     "company": "Johns Hopkins Applied Physics Laboratory",
@@ -19306,12 +19024,6 @@
     "first_seen": "2026-07-21",
     "title": "Research Assistant/Programmer - Yanxi Liu",
     "url": "https://psu.wd1.myworkdayjobs.com/PSU_Staff/job/Penn-State-University-Park/Part-Time-Research-Assistant-Programmer---Yanxi-Liu_REQ_0000069003-1"
-  },
-  "861d47de545a76f6": {
-    "company": "Morgan Stanley",
-    "first_seen": "2026-07-09",
-    "title": "NQDC Administration Associate/AVP",
-    "url": "https://ms.wd5.myworkdayjobs.com/en-US/External/job/Alpharetta-Georgia-United-States-of-America/NQDC-Administration-Associate-AVP_PT-JR040320"
   },
   "861e7fc7e86198b3": {
     "company": "iTradeNetwork",
@@ -19925,12 +19637,6 @@
     "title": "Full Stack Software Engineer 4 -  Go, Python, Java, AWS",
     "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Richmond-VA/Full-Stack-Software-Engineer-4----Go--Python--Java--AWS_R1002920"
   },
-  "8a08a570d2d0f64d": {
-    "company": "Magna",
-    "first_seen": "2026-07-09",
-    "title": "IT – Programmer",
-    "url": "https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Nashville-Illinois-US/IT---Programmer_R00223231"
-  },
   "8a128010fd1fa8cc": {
     "company": "Capital One",
     "first_seen": "2026-09-27",
@@ -20237,6 +19943,12 @@
     "title": "Full Stack Engineer 4",
     "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Plano-TX/Full-Stack-Engineer-4_R1001707-1"
   },
+  "8c4754c642735be5": {
+    "company": "Pendar Technologies",
+    "first_seen": "2026-11-07",
+    "title": "Scientific Software Engineer - Algorithms",
+    "url": "https://job-boards.greenhouse.io/pendartechnologies/jobs/5475948008"
+  },
   "8c4a4bf761addfea": {
     "company": "Akamai Technologies",
     "first_seen": "2026-10-22",
@@ -20308,12 +20020,6 @@
     "first_seen": "2026-11-01",
     "title": "New Grad 2027: 3D Graphics Innovation Engineer (PICO Foundation-Developer Technology)",
     "url": "https://joinbytedance.com/search/7667926830305528117"
-  },
-  "8cb310ad5f59ee07": {
-    "company": "Wellmark",
-    "first_seen": "2026-07-09",
-    "title": "Software Engineer",
-    "url": "https://jobs.smartrecruiters.com/WellmarkInc/744000136512919"
   },
   "8cf5605e17f50145": {
     "company": "RTX",
@@ -21347,6 +21053,12 @@
     "title": "Software Engineer 2 - Effectors",
     "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-AZ-TUCSON-805--1151-E-Hermans-Rd--BLDG-805/XMLNAME-2026-Raytheon-Full-Time---Effectors-Software-Engineer-II---Tucson--AZ--Onsite-_01820536"
   },
+  "948ccbaa24194dfe": {
+    "company": "Chewy",
+    "first_seen": "2026-11-07",
+    "title": "Software Engineer 1 - Full Stack - Promotions",
+    "url": "https://wd5.myworkdaysite.com/recruiting/chewy/External/job/Boston-MA/Software-Engineer-I--Full-Stack--Promotions_R31442"
+  },
   "9497baf907747cff": {
     "company": "CrossCountry Consulting",
     "first_seen": "2026-10-27",
@@ -21424,12 +21136,6 @@
     "first_seen": "2026-10-26",
     "title": "New Grad 2027: Machine Learning Engineer, E-Commerce Knowledge Graph",
     "url": "https://go.vansh.nyc/HR"
-  },
-  "9527dd882db89341": {
-    "company": "The New York Times",
-    "first_seen": "2026-07-09",
-    "title": "Associate Android Engineer",
-    "url": "https://job-boards.greenhouse.io/thenewyorktimes/jobs/4636765005"
   },
   "9538045d118d50d4": {
     "company": "Salesforce",
@@ -21971,12 +21677,6 @@
     "title": "Software Engineer I - Membership",
     "url": "https://go.vansh.nyc/iG"
   },
-  "988217a45b783b0c": {
-    "company": "World Wide Professional Solutions",
-    "first_seen": "2026-07-09",
-    "title": "Data Analyst - Data Center",
-    "url": "https://jobs.lever.co/wwprosolutions/0ffd03e5-9556-41b9-8eee-85932d0fe5b9/apply"
-  },
   "989e545dbd6dbc07": {
     "company": "ByteDance",
     "first_seen": "2026-11-01",
@@ -22066,12 +21766,6 @@
     "first_seen": "2026-10-26",
     "title": "New Grad 2027: Software Developer",
     "url": "https://go.vansh.nyc/Ph"
-  },
-  "9911f4eb42f95ab8": {
-    "company": "The Walt Disney Company",
-    "first_seen": "2026-07-09",
-    "title": "Product Software Engineer 1",
-    "url": "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Santa-Monica-CA-USA/Product-Software-Engineer-I_10151711"
   },
   "991f3b728c223f1e": {
     "company": "Capital One",
@@ -23033,12 +22727,6 @@
     "title": "Machine Learning Engineer 4 - Machine Learning Experiences (MLX)",
     "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/San-Jose-CA/Machine-Learning-Engineer-4---Machine-Learning-Experiences--MLX-_R1004237"
   },
-  "a05a6fa45c2c0a94": {
-    "company": "SpaceX",
-    "first_seen": "2026-07-09",
-    "title": "Security Software Engineer (Starlink)",
-    "url": "https://boards.greenhouse.io/spacex/jobs/8624833002?gh_jid=8624833002"
-  },
   "a06903e18e0b953c": {
     "company": "John Gore Organization",
     "first_seen": "2026-09-10",
@@ -23122,12 +22810,6 @@
     "first_seen": "2026-08-02",
     "title": "Software Engineer - Strategy, Innovation & Planning",
     "url": "https://invesco.wd1.myworkdayjobs.com/en-US/IVZ/job/Atlanta-Georgia/Engineer--SIP_R-13716-1"
-  },
-  "a0fece0b5fcbae8b": {
-    "company": "OpenAI",
-    "first_seen": "2026-07-09",
-    "title": "Software Engineer, ChatGPT Lifestyle",
-    "url": "https://jobs.ashbyhq.com/openai/ca54cd23-2bcc-4327-bcb6-46d81ed414a8"
   },
   "a10bc75605ed8587": {
     "company": "Capital One",
@@ -24515,6 +24197,12 @@
     "title": "Entry Level Software Developer",
     "url": "https://jobs.smartrecruiters.com/9to9SoftwareSolutionsLLC/743999674053935"
   },
+  "aa752b7d8d9f977a": {
+    "company": "SpaceX",
+    "first_seen": "2026-11-07",
+    "title": "IT Network Infrastructure Engineer, Launch",
+    "url": "https://boards.greenhouse.io/spacex/jobs/8933928002?gh_jid=8933928002"
+  },
   "aa7f5bec2da0a0fe": {
     "company": "RTX",
     "first_seen": "2026-07-29",
@@ -25247,12 +24935,6 @@
     "title": "Deep Learning Software Engineer, Inference - New College Grad 2026",
     "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Remote/Deep-Learning-Software-Engineer--Inference---New-College-Grad-2026_JR2021742"
   },
-  "afe83bcac5aa4621": {
-    "company": "Anduril",
-    "first_seen": "2026-07-09",
-    "title": "Software Engineer ",
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5133682007?gh_jid=5133682007"
-  },
   "b00baecf47484882": {
     "company": "Robinhood",
     "first_seen": "2026-10-26",
@@ -25691,12 +25373,6 @@
     "title": "Software Engineering - Core Software Engineering - Software Engineering PMTS-2",
     "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/California---San-Francisco/Software-Engineering---Core-Software-Engineering---Software-Engineering-PMTS-2_JR355156-1"
   },
-  "b3bd4eea72999a85": {
-    "company": "Jump Trading",
-    "first_seen": "2026-07-09",
-    "title": "Campus Software Engineer",
-    "url": "https://boards.greenhouse.io/embed/job_app?token=8000835"
-  },
   "b3d66f8723946d35": {
     "company": "Coinbase",
     "first_seen": "2026-10-20",
@@ -26093,12 +25769,6 @@
     "title": "Machine Learning Engineer Graduate - Monetization Technology - Ads Core Global",
     "url": "https://lifeattiktok.com/search/7668675484492597557"
   },
-  "b677ff8d9a638a60": {
-    "company": "Morgan Stanley",
-    "first_seen": "2026-07-09",
-    "title": "Registered Client Relationship Analyst",
-    "url": "https://ms.wd5.myworkdayjobs.com/en-US/External/job/Wayzata-Minnesota-United-States-of-America/Registered-Client-Relationship-Analyst_JR040264"
-  },
   "b6846e18f20ccfa3": {
     "company": "Palo Alto Networks",
     "first_seen": "2026-10-23",
@@ -26171,12 +25841,6 @@
     "title": "New Grad 2027: Machine Learning Engineer, TikTok Trust and Safety",
     "url": "https://lifeattiktok.com/search/7665994926854555909"
   },
-  "b703402835a4a1f3": {
-    "company": "Generac",
-    "first_seen": "2026-07-09",
-    "title": "Data Science Analyst",
-    "url": "https://generac.wd5.myworkdayjobs.com/en-US/external/job/Waukesha-WI---USA/Data-Science-Analyst_JR15318"
-  },
   "b705ea8fd6921713": {
     "company": "Akuna Capital University",
     "first_seen": "2026-07-14",
@@ -26224,12 +25888,6 @@
     "first_seen": "2026-10-27",
     "title": "Software Engineer - Inference",
     "url": "https://coreweave.com/careers/job?4703438006&board=coreweave&gh_jid=4703438006"
-  },
-  "b7302aca7a6cea88": {
-    "company": "Galaxy",
-    "first_seen": "2026-07-09",
-    "title": "Trading Operations Analyst",
-    "url": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/6008319004"
   },
   "b73589cf4fb906ab": {
     "company": "Hewlett Packard Enterprise",
@@ -26519,6 +26177,12 @@
     "title": "Full Stack Software Engineer, Launch Software",
     "url": "https://boards.greenhouse.io/spacex/jobs/8849598002?gh_jid=8849598002"
   },
+  "b930bcd0d776b09a": {
+    "company": "Ramp",
+    "first_seen": "2026-11-07",
+    "title": "Backend Engineer | AI Spend Management",
+    "url": "https://jobs.ashbyhq.com/ramp/b7514711-8a29-4bd2-a97a-967be14e336f"
+  },
   "b942727b99d7b400": {
     "company": "Becton Dickinson",
     "first_seen": "2026-10-10",
@@ -26590,12 +26254,6 @@
     "first_seen": "2026-10-25",
     "title": "Systems Engineer, Collision Avoidance, Autonomy & Robotics",
     "url": "https://go.vansh.nyc/oa"
-  },
-  "b9a7e86905addc71": {
-    "company": "M&T Bank",
-    "first_seen": "2026-07-09",
-    "title": "Credit Model Development Quantitative Analyst 1 - HELOC & Residential Mortgage",
-    "url": "https://mtb.wd5.myworkdayjobs.com/MTB/job/Wilmington-DE/Credit-Model-Development-Quantitative-Analyst-I--HELOC----Residential-Mortgage--Hybrid-_R87946"
   },
   "b9aee0280ee52fbc": {
     "company": "Booz Allen",
@@ -27077,12 +26735,6 @@
     "title": "Copilot Systems Engineer 1",
     "url": "https://stewart.wd1.myworkdayjobs.com/External/job/USA-TX---Remote/Systems-Engineer-I_JR108188"
   },
-  "bce840e87ead2e50": {
-    "company": "DailyPay",
-    "first_seen": "2026-07-09",
-    "title": "Analyst 1 - Mission Control",
-    "url": "https://jobs.ashbyhq.com/dailypay/17a78eb3-d50c-4c6c-8b80-6f45affd8ffa/application"
-  },
   "bce9772283aab02d": {
     "company": "Tesla",
     "first_seen": "2026-10-25",
@@ -27136,6 +26788,12 @@
     "first_seen": "2026-10-08",
     "title": "Software Engineer New Grad",
     "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/New-College-Grad-Software-Development-Engineer--Bachelors---Santa-Clara--CA-_R2628997"
+  },
+  "bd300d571381faff": {
+    "company": "Elevation Autism Center",
+    "first_seen": "2026-11-07",
+    "title": "Software Engineer - AI & Workflow Automation",
+    "url": "https://apply.workable.com/elevation-autism-center/j/B5CCC7D40B/apply"
   },
   "bd30ca5de5325c21": {
     "company": "Verse Medical",
@@ -27460,12 +27118,6 @@
     "first_seen": "2026-11-06",
     "title": "New Grad 2027: Software Development Engineer, Embedded Systems",
     "url": "https://amazon.jobs/en/jobs/10598021/software-development-engineer-embedded-systems-amazon-leo-early-career-2027-us"
-  },
-  "bf4f6b7653fe6393": {
-    "company": "Red Ventures",
-    "first_seen": "2026-07-09",
-    "title": "Associate Data Scientist - Home Client Services",
-    "url": "https://www.redventures.com/careers/positions/open?gh_jid=8043811"
   },
   "bf545e8e7e4f4ef0": {
     "company": "Tesla",
@@ -28247,12 +27899,6 @@
     "title": "Full-stack Engineer 4",
     "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Full-stack-Engineer-4_R1001238-1"
   },
-  "c3dc48c3616fe3b9": {
-    "company": "Jump Trading",
-    "first_seen": "2026-07-09",
-    "title": "Campus Software Engineer (Full-Time)",
-    "url": "https://www.jumptrading.com/hr/job?gh_jid=8000835"
-  },
   "c3de1d5e74473d04": {
     "company": "AeroVironment",
     "first_seen": "2026-08-11",
@@ -28487,12 +28133,6 @@
     "title": "Quantitative Researcher",
     "url": "https://careers-sig.icims.com/jobs/11018/job?mobile=true&needsRedirect=false"
   },
-  "c537eeaf7ad2d9a7": {
-    "company": "State of North Carolina",
-    "first_seen": "2026-07-09",
-    "title": "Business Systems Analyst 1",
-    "url": "https://nc.wd108.myworkdayjobs.com/NC_Careers/job/Carteret-County-NC/Business-Systems-Analyst-I--Temporary---Carteret-_JR-119671"
-  },
   "c559754b0c2022d2": {
     "company": "IXL Learning",
     "first_seen": "2026-10-08",
@@ -28690,12 +28330,6 @@
     "first_seen": "2026-10-28",
     "title": "Software Engineer, New Grad",
     "url": "https://jobs.lever.co/palantir/94984771-0704-446c-88c6-91ce748f6d92"
-  },
-  "c6842dd8e248ddb3": {
-    "company": "Quora",
-    "first_seen": "2026-07-09",
-    "title": "Machine Learning Engineer New Grad",
-    "url": "https://jobs.ashbyhq.com/quora/3eb7e80e-6a0d-41b6-8ee4-f62421c486e4/application"
   },
   "c68e58898c002201": {
     "company": "Capital One",
@@ -29009,12 +28643,6 @@
     "title": "New Grad: Software Engineer I",
     "url": "https://go.vansh.nyc/uG"
   },
-  "c91975757dc2e724": {
-    "company": "NVIDIA",
-    "first_seen": "2026-07-09",
-    "title": "System Software Engineer, Engineering Workflow Platform",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/System-Software-Engineer--Engineering-Workflow-Platform_JR2018371"
-  },
   "c92fd5a9910f629c": {
     "company": "SpaceX",
     "first_seen": "2026-08-19",
@@ -29194,12 +28822,6 @@
     "first_seen": "2026-11-01",
     "title": "New Grad 2027: Machine Learning Engineer (Data-Global E-Commerce-Search)",
     "url": "https://lifeattiktok.com/search/7668390999147776309"
-  },
-  "ca4a051ad1542c11": {
-    "company": "Northrop Grumman",
-    "first_seen": "2026-07-09",
-    "title": "Software Engineer Level 1 or 2",
-    "url": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Colorado-Aurora/Software-Engineer-Level-1-or-2_R10239388"
   },
   "ca4f60af55ad0e36": {
     "company": "Anduril",
@@ -29993,12 +29615,6 @@
     "title": "Operations Analyst, Quality Control",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5025986007?gh_jid=5025986007"
   },
-  "d00d5d4270dbf1e1": {
-    "company": "Jump Trading",
-    "first_seen": "2026-07-09",
-    "title": "Campus Quantitative Researcher, UG/MS (Full-Time)",
-    "url": "https://www.jumptrading.com/hr/job?gh_jid=7728630"
-  },
   "d00f5a21e6e2b3e3": {
     "company": "General Dynamics",
     "first_seen": "2026-11-05",
@@ -30383,6 +29999,12 @@
     "title": "Software Engineer New Grad",
     "url": "https://jobs.ashbyhq.com/chalk/927c74a5-1b40-490d-b3be-a29baec4db6f/application?embed=true"
   },
+  "d29573647c2b7e17": {
+    "company": "Qualtrics",
+    "first_seen": "2026-11-07",
+    "title": "Software Engineer II - Discover Studio",
+    "url": "https://www.qualtrics.com/careers/us/en/job/8357630?gh_jid=8357630"
+  },
   "d297994552fd1284": {
     "company": "NVIDIA",
     "first_seen": "2026-07-29",
@@ -30418,12 +30040,6 @@
     "first_seen": "2026-10-26",
     "title": "Software Engineer - Core Interfaces",
     "url": "https://jobs.lever.co/palantir/cf76738e-3030-42fa-92ac-a9446df956fc"
-  },
-  "d2cd766238bc04c3": {
-    "company": "Cambridge Associates",
-    "first_seen": "2026-07-09",
-    "title": "Investment Analyst - Venture Capital",
-    "url": "https://cambridgeassociates.wd5.myworkdayjobs.com/Handshake/job/Boston/Investment-Analyst--Venture-Capital_JR0000335-2"
   },
   "d2d0cb299c779876": {
     "company": "Cursor",
@@ -30724,12 +30340,6 @@
     "first_seen": "2026-10-27",
     "title": "New Grad 2027: Software Engineer",
     "url": "https://careers.roblox.com/jobs/8072244?gh_jid=8072244"
-  },
-  "d4ba701efd89e97e": {
-    "company": "Morgan Stanley",
-    "first_seen": "2026-07-09",
-    "title": "Private Wealth Management Registered Client Service Associate",
-    "url": "https://ms.wd5.myworkdayjobs.com/en-US/External/job/West-Palm-Beach-Florida-United-States-of-America/Private-Wealth-Management-Portfolio-Management-Associate_JR038867-1"
   },
   "d4c126e08c11588b": {
     "company": "Noble Machines",
@@ -31133,12 +30743,6 @@
     "title": "Technology Developer Graduate Program - Expert Program",
     "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/XMLNAME-2027-Technology-Developer-Expert-Graduate-Program-Wilmington_JR-0000123440"
   },
-  "d7d043ccac17c747": {
-    "company": "RTX",
-    "first_seen": "2026-07-09",
-    "title": "Software Engineer 1",
-    "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineer-I--Onsite-_01857780"
-  },
   "d7d87fc2997c4ff8": {
     "company": "RTX",
     "first_seen": "2026-08-13",
@@ -31396,12 +31000,6 @@
     "first_seen": "2026-10-26",
     "title": "Software Engineer (Special Projects) - Top Secret Clearance",
     "url": "https://boards.greenhouse.io/spacex/jobs/8568970002?gh_jid=8568970002"
-  },
-  "d94691d7474fbb30": {
-    "company": "The Boeing Company",
-    "first_seen": "2026-07-09",
-    "title": "Modernization Software Engineer",
-    "url": "https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/USA---Colorado-Springs-CO/Modernization-Software-Engineer--Associate-or-Mid-Level-_JR2026515908-1"
   },
   "d95694d5676463c4": {
     "company": "Amazon",
@@ -31775,12 +31373,6 @@
     "title": "New Grad 2027: Test Software Engineer, Douyin Research and Development Middle Platform",
     "url": "https://joinbytedance.com/search/7664894974764828981"
   },
-  "db5213e9a5dc7e6e": {
-    "company": "Red Hat",
-    "first_seen": "2026-07-09",
-    "title": "Associate Software Engineer",
-    "url": "https://redhat.wd5.myworkdayjobs.com/jobs/job/Durham/Associate-Software-Engineer_R-058395"
-  },
   "db52b1ce00563005": {
     "company": "Boeing",
     "first_seen": "2026-10-14",
@@ -31852,6 +31444,12 @@
     "first_seen": "2026-08-15",
     "title": "Software Engineer 1",
     "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-MN-BURNSVILLE-NORTH--2900-County-Rd-42-W--NORTH-BLDG/Software-Engineer-I--Onsite-_01866686"
+  },
+  "dbeef58bded29992": {
+    "company": "Cisco",
+    "first_seen": "2026-11-07",
+    "title": "Software Engineer Embedded Systems I",
+    "url": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Embedded-Systems-I--Full-Time----United-States_2024231-1"
   },
   "dbf453745f8e232a": {
     "company": "TikTok",
@@ -32027,6 +31625,12 @@
     "title": "Software Engineer (Master's)",
     "url": "https://go.vansh.nyc/Bi"
   },
+  "dcfea97562d8ee4a": {
+    "company": "Affirm",
+    "first_seen": "2026-11-07",
+    "title": "Software Engineer II, Backend",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8196114003"
+  },
   "dd03ffa56c44a253": {
     "company": "OpenAI",
     "first_seen": "2026-10-26",
@@ -32092,12 +31696,6 @@
     "first_seen": "2026-09-25",
     "title": "Full-stack Engineer 4 (Apache Spark and Java)( Enterprise Platforms Technology)",
     "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/McLean-VA/Full-stack-Engineer-4--Apache-Spark-and-Java---Enterprise-Platforms-Technology-_R1002176-1"
-  },
-  "dd931092daf16823": {
-    "company": "Ramp",
-    "first_seen": "2026-07-09",
-    "title": "Solutions Consultant, Post Sales, Enterprise",
-    "url": "https://jobs.ashbyhq.com/ramp/971abc99-f20b-43f0-91d6-90bcbfa2c8d9"
   },
   "dd9c4ac0fdb66bc6": {
     "company": "RTX",
@@ -32188,12 +31786,6 @@
     "first_seen": "2026-08-07",
     "title": "Robotics Software Engineer, Omen",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5183150007?gh_jid=5183150007"
-  },
-  "de72fe9ba438f5aa": {
-    "company": "DTCC",
-    "first_seen": "2026-07-09",
-    "title": "Technology Analyst",
-    "url": "https://ebxr.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/214155"
   },
   "de93a9d665f70db5": {
     "company": "Cadence Design Systems",
@@ -32375,12 +31967,6 @@
     "title": "Physical Design Backend Engineer",
     "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Israel-Yokneam/Physical-Design-Backend-Engineer_JR2021152"
   },
-  "e07b7e46f81e8b2d": {
-    "company": "Morgan Stanley",
-    "first_seen": "2026-07-09",
-    "title": "Client Relationship Analyst",
-    "url": "https://ms.wd5.myworkdayjobs.com/en-US/External/job/Beavercreek-Ohio-United-States-of-America/Client-Relationship-Analyst_JR040361"
-  },
   "e090c72c21587ff7": {
     "company": "iTradeNetwork",
     "first_seen": "2026-07-10",
@@ -32507,12 +32093,6 @@
     "title": "Backend Engineer, Link (US)",
     "url": "https://stripe.com/jobs/search?gh_jid=8131144"
   },
-  "e15a7dc7f87a304d": {
-    "company": "William & Mary",
-    "first_seen": "2026-07-09",
-    "title": "Data Analyst",
-    "url": "https://williammary.wd12.myworkdayjobs.com/WM/job/Posting-Location---VIMS-Gloucester/Data-Analyst_JR101823"
-  },
   "e15cf536151ec0ac": {
     "company": "TikTok",
     "first_seen": "2026-11-01",
@@ -32573,12 +32153,6 @@
     "title": "New Grad 2027: Platform Full-Stack Engineer",
     "url": "https://go.vansh.nyc/KM"
   },
-  "e1d618745adb19ef": {
-    "company": "Walmart",
-    "first_seen": "2026-07-09",
-    "title": "Software Engineer 3",
-    "url": "https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/Bentonville-AR/Software-Engineer-III_R-2556776-1"
-  },
   "e1d79b7e11d2a80f": {
     "company": "Salesforce",
     "first_seen": "2026-10-26",
@@ -32590,12 +32164,6 @@
     "first_seen": "2026-10-25",
     "title": "Software Engineer, Gaming AI, PC Compute",
     "url": "https://go.vansh.nyc/jK"
-  },
-  "e1df57fe8635e285": {
-    "company": "Morgan Stanley",
-    "first_seen": "2026-07-09",
-    "title": "Associate Private Banker",
-    "url": "https://ms.wd5.myworkdayjobs.com/en-US/External/job/New-York-New-York-United-States-of-America/Associate-Private-Banker_PT-JR039178"
   },
   "e1f1f860c2665780": {
     "company": "ViaSat",
@@ -32692,12 +32260,6 @@
     "first_seen": "2026-11-01",
     "title": "New Grad 2027: Backend Software Engineer (Machine Moderation Platform)",
     "url": "https://lifeattiktok.com/search/7663036950303050037"
-  },
-  "e2d372ce700065c4": {
-    "company": "Leidos",
-    "first_seen": "2026-07-09",
-    "title": "Software Development Engineer",
-    "url": "https://leidos.wd5.myworkdayjobs.com/External/job/Gaithersburg-MD/Software-Development-Engineer_R-00186934-1"
   },
   "e2dcf993073dc31a": {
     "company": "SimVentions",
@@ -32980,6 +32542,12 @@
     "first_seen": "2026-10-27",
     "title": "New Grad: Forward Deployed Infrastructure Engineer, US Government",
     "url": "https://jobs.lever.co/palantir/91117724-9389-48dc-912f-98e48d4d45d8"
+  },
+  "e5321083407ce311": {
+    "company": "Ramp",
+    "first_seen": "2026-11-07",
+    "title": "Backend Engineer | Accounting",
+    "url": "https://jobs.ashbyhq.com/ramp/c0a71032-1efb-40dc-b1e8-aa0f30cd5961"
   },
   "e539280cd0169caf": {
     "company": "CACI",
@@ -34625,12 +34193,6 @@
     "title": "IT Systems Engineer",
     "url": "https://boards.greenhouse.io/andurilindustries/jobs/5239480007?gh_jid=5239480007"
   },
-  "f0120de106de47ee": {
-    "company": "Morgan Stanley",
-    "first_seen": "2026-07-09",
-    "title": "Natural Gas Scheduler - Commodities - Fixed Income - Associate",
-    "url": "https://ms.wd5.myworkdayjobs.com/en-US/External/job/Houston-Texas-United-States-of-America/Natural-Gas-Scheduler---Commodities---Fixed-Income---Associate_JR040263"
-  },
   "f01d79cc93b9624d": {
     "company": "GABLETEK",
     "first_seen": "2026-09-03",
@@ -34750,6 +34312,12 @@
     "first_seen": "2026-08-03",
     "title": "Machine Learning Engineer New Grad - E-Commerce Search",
     "url": "https://lifeattiktok.com/search/7668390999147776309"
+  },
+  "f13635bad5bdf8f4": {
+    "company": "Affirm",
+    "first_seen": "2026-11-07",
+    "title": "Software Engineer II, Backend",
+    "url": "https://job-boards.greenhouse.io/affirm/jobs/8196112003"
   },
   "f143970b3f4f6c54": {
     "company": "Capital One",
@@ -34871,12 +34439,6 @@
     "title": "Software Engineer",
     "url": "https://go.vansh.nyc/P8"
   },
-  "f2492db6825d883a": {
-    "company": "Masco",
-    "first_seen": "2026-07-09",
-    "title": "Data Analyst - Procurement",
-    "url": "https://masco.wd1.myworkdayjobs.com/Masco/job/US---Michigan---Livonia/Data-Analyst--Procurement_REQ53585"
-  },
   "f2533e0f025410c2": {
     "company": "SpaceX",
     "first_seen": "2026-10-07",
@@ -34973,12 +34535,6 @@
     "title": "Software Engineer 1",
     "url": "https://jobs.l3harris.com/job/Melbourne-Associate,-Software-Engineer-1-FL-32934/1422829700/?ats=successfactors"
   },
-  "f2c0cfb96f38cf93": {
-    "company": "The Boeing Company",
-    "first_seen": "2026-07-09",
-    "title": "Development Security & Operations Associate - Devsecops - Software Engineer",
-    "url": "https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/USA---Colorado-Springs-CO/Development-Security---Operations--DevSecOps--Software-Engineer--Associate-or-Mid-Level-_JR2026515911"
-  },
   "f2dfc08a0bfee87d": {
     "company": "Qualcomm",
     "first_seen": "2026-10-25",
@@ -35050,12 +34606,6 @@
     "first_seen": "2026-07-30",
     "title": "Software Engineer / Writer",
     "url": "https://www.janestreet.com/join-jane-street/apply/7604415002?gh_jid=7604415002"
-  },
-  "f34291adfbf566f5": {
-    "company": "NVIDIA",
-    "first_seen": "2026-07-09",
-    "title": "Compensation Analyst",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Compensation-Analyst_JR2021092-1"
   },
   "f35735531e6be9cc": {
     "company": "OpenAI",
@@ -35171,12 +34721,6 @@
     "title": "Entry Level Software Engineer",
     "url": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Atlanta-GA/Entry-Level-Software-Engineer---Atlanta--GA_R202680858-1"
   },
-  "f4365f799d4717cb": {
-    "company": "Salesforce",
-    "first_seen": "2026-07-09",
-    "title": "Software Engineering MTS",
-    "url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Washington---Bellevue/Software-Engineering-MTS_JR349609"
-  },
   "f4370e1e140bdb59": {
     "company": "Apple",
     "first_seen": "2026-08-04",
@@ -35236,6 +34780,12 @@
     "first_seen": "2026-07-31",
     "title": "Cellular Power Optimization Software Engineer, Wireless Technologies & Ecosystems",
     "url": "https://jobs.apple.com/en-us/details/200657382"
+  },
+  "f4cf996f8f48d293": {
+    "company": "Prosync",
+    "first_seen": "2026-11-07",
+    "title": "Software Engineer 0/1",
+    "url": "https://apply.workable.com/prosync/j/6ECFBED6E7/apply"
   },
   "f4d6a36bafe05394": {
     "company": "Opiniion",
@@ -35933,6 +35483,12 @@
     "title": "Android Mobile Software Developer 1",
     "url": "https://quickenloans.wd5.myworkdayjobs.com/rocket_careers/job/Seattle-WA/Android-Mobile-Software-Developer-I_R-083752"
   },
+  "f9d7b75d9426e4b5": {
+    "company": "Engine",
+    "first_seen": "2026-11-07",
+    "title": "Software Engineer - GTM Engineering",
+    "url": "https://job-boards.greenhouse.io/engine/jobs/8046374003"
+  },
   "f9d9e17dfbd1d555": {
     "company": "Salesforce",
     "first_seen": "2026-11-05",
@@ -35999,23 +35555,11 @@
     "title": "Software Engineer",
     "url": "https://careers.arcfield.com/jobs/8643?icims=1"
   },
-  "fa173d68aa771be9": {
-    "company": "Anduril",
-    "first_seen": "2026-07-09",
-    "title": "Robotics Software Engineer, Maneuver Dominance",
-    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5113527007?gh_jid=5113527007"
-  },
   "fa203705171630f2": {
     "company": "Tesla",
     "first_seen": "2026-10-25",
     "title": "Frontend Engineer, GenAI Model Evaluation",
     "url": "https://go.vansh.nyc/it"
-  },
-  "fa2d14dcd5875b46": {
-    "company": "JP Morgan Chase",
-    "first_seen": "2026-07-09",
-    "title": "Quantitative Trading & Research - RMBS Underwriting - Analyst",
-    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210768112"
   },
   "fa2e3efe6abbb99c": {
     "company": "GE Vernova",
@@ -36100,12 +35644,6 @@
     "first_seen": "2026-07-28",
     "title": "Software Engineer 1",
     "url": "https://cox.wd1.myworkdayjobs.com/Cox_External_Career_Site_1/job/Austin-TX/Software-Engineer-I---18525_R202680328"
-  },
-  "fa7d57f09a7b3789": {
-    "company": "AcuityMD",
-    "first_seen": "2026-07-09",
-    "title": "Data Analyst - Software Engineering Track",
-    "url": "https://job-boards.greenhouse.io/acuitymd/jobs/6111981004"
   },
   "fa96642807d55960": {
     "company": "RTX",
@@ -36557,6 +36095,12 @@
     "title": "Software Development Engineer New Grad",
     "url": "https://jobs.lever.co/shieldai/79c3b65f-ce0c-4868-bedf-4ddcc4cfe583/apply"
   },
+  "fd7dde2c1f93b080": {
+    "company": "Cisco",
+    "first_seen": "2026-11-07",
+    "title": "Software Engineer Embedded Systems I",
+    "url": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Software-Engineer-Embedded-Systems-I--Full-Time----United-States_2024231-1"
+  },
   "fd829bb6d4aa5c28": {
     "company": "TikTok",
     "first_seen": "2026-11-01",
@@ -36827,12 +36371,6 @@
     "title": "Full-stack Engineer 4 (Java, Python, JavaScript)",
     "url": "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One/job/Plano-TX/Full-stack-Engineer-4--Java--Python--JavaScript-_R1002992-1"
   },
-  "ffacdffb942cf0b5": {
-    "company": "NVIDIA",
-    "first_seen": "2026-07-09",
-    "title": "Cyber Security Analyst",
-    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/Cyber-Security-Analyst_JR2015853"
-  },
   "ffae03f84d498a1d": {
     "company": "Capital One",
     "first_seen": "2026-10-09",
@@ -36856,6 +36394,12 @@
     "first_seen": "2026-10-26",
     "title": "SWE Fellow - Human Frontier Collective (Canada)",
     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4689954005"
+  },
+  "ffbdbebe32eb4377": {
+    "company": "Ramp",
+    "first_seen": "2026-11-07",
+    "title": "Backend Engineer | Accounts Receivable",
+    "url": "https://jobs.ashbyhq.com/ramp/47a75895-24af-49b7-9858-1be0ec0e7c71"
   },
   "ffd7b872ed58f2af": {
     "company": "RTX",
